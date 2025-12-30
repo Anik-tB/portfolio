@@ -630,10 +630,21 @@ footer {
 @media (max-width: 768px) {
   .navbar {
     padding: 15px 5%;
+    justify-content: space-between;
+    /* Ensure space between logo and hamburger */
+    align-items: center;
+    /* Vertically align them */
   }
 
+  /* Force hamburger to show */
   .hamburger {
-    display: flex;
+    display: flex !important;
+    position: relative;
+    /* Ensure it respects flow */
+    right: 0;
+    top: 0;
+    z-index: 1002;
+    /* Higher than potential overlays */
   }
 
   .nav-links {
