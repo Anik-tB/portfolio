@@ -97,6 +97,11 @@ A full-stack application designed to monitor, predict, and optimize industrial s
 
 ## 🏆 **Achievements**
 
+<div align="center">
+  <img src="achievement-btg.jpg" alt="Beyond The Galaxy" width="45%" />
+  <img src="achievement-brainwave.jpg" alt="Brainwave Microcontroller" width="45%" />
+</div>
+
 - **Champion - Beyond The Galaxy:** Secured the Champion position in the AOOP Course. Recognized for excellence in game development and software architecture with JavaFX (Fall 24).
 - **1st Runner Up - Brainwave Microcontroller:** Awarded for an innovative electronics project utilizing brainwave microcontroller technology to control interfaces via mind signals (CSE Spring 25).
 
@@ -123,11 +128,10 @@ A full-stack application designed to monitor, predict, and optimize industrial s
 
 <div align="center">
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/md-abu-sayum-anik-2a431b295)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/md-abu-sayum-anik-2a431b295?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app)
 [![Facebook](https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white)](https://www.facebook.com/share/1CD6nUzrwJ/)
 [![Codeforces](https://img.shields.io/badge/Codeforces-1F8ACB?style=for-the-badge&logo=codeforces&logoColor=white)](https://codeforces.com/profile/aDistraction-null)
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:mdabusayumanik123@gmail.com)
-[![Portfolio](https://img.shields.io/badge/Portfolio-9D4EDD?style=for-the-badge&logo=googlechrome&logoColor=white)](https://anik.dev)
 
 </div>
 
