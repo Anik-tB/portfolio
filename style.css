@@ -135,6 +135,8 @@ body {
 .hero {
   height: 100vh;
   display: flex;
+  flex-direction: row;
+  /* Enforce side-by-side */
   align-items: center;
   justify-content: space-between;
   padding: 0 10%;
