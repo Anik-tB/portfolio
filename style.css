@@ -557,20 +557,19 @@ footer {
 .hamburger {
   display: none;
   flex-direction: column;
-  gap: 5px;
+  gap: 6px;
   cursor: pointer;
-  z-index: 1001;
+  z-index: 2000;
+  padding: 5px;
 }
 
 .hamburger div {
-  width: 25px;
+  width: 30px;
   height: 3px;
-  background: #ffffff;
-  /* Explicitly white for visibility */
+  background-color: #ffffff !important;
   transition: all 0.3s ease;
   border-radius: 3px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-  /* Add shadow for contrast */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
 }
 
 .hamburger.active .line1 {
