@@ -635,6 +635,8 @@ footer {
 
   .nav-links {
     position: fixed;
+    left: auto;
+    transform: none;
     right: -100%;
     top: 0;
     height: 100vh;
@@ -649,8 +651,6 @@ footer {
     transition: right 0.4s ease-in-out;
     border-left: 1px solid var(--border);
     z-index: 1000;
-    left: auto;
-    transform: none;
   }
 
   .nav-links.active {
