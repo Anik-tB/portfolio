@@ -743,21 +743,24 @@ footer {
   }
 
   .project-image {
-    height: 150px;
-    /* Reduced height for mobile */
+    height: 180px;
+    /* Slightly taller for better look */
   }
 
   .projects-grid {
-    grid-template-columns: 1fr;
-    gap: 25px;
-    /* Better spacing */
+    display: flex;
+    /* Switch to flex column for better control on mobile */
+    flex-direction: column;
+    gap: 40px;
+    /* Large visible gap */
+    padding-bottom: 20px;
   }
 
   .project-card {
-    max-width: 400px;
-    /* Limit width */
-    margin: 0 auto;
-    /* Center cards */
+    max-width: 100%;
+    /* Full width of container */
+    margin-bottom: 20px;
+    /* Extra safety margin */
   }
 
   .skill-card {
