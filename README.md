@@ -43,8 +43,8 @@
     <td width="100px"><img src="uiu-logo.png" width="80px" alt="UIU Logo"></td>
     <td>
       <b>United International University</b><br>
-      <i>B.Sc. in Computer Science & Engineering</i> | Jan 2023 - Oct 2025<br>
-      CGPA: 3.86/4.00 | 🏆 Multiple Merit Scholarships
+      <i>B.Sc. in Computer Science & Engineering</i> | sep 2023 - ongoing<br>
+     current CGPA: 3.86/4.00 | 🏆 Multiple Merit Scholarships
     </td>
   </tr>
   <tr>
