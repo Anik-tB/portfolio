@@ -1,4 +1,5 @@
 # Hi, I'm **Md Abu Sayum Anik** 👋
+
 ### Full Stack Developer | Software Engineer | Problem Solver
 
 <div align="center">
@@ -14,8 +15,7 @@
 
 ## 💼 **Professional Summary**
 
-I am a dedicated **Full Stack Developer** with a strong background in core programming, data structures, and scalable system design.
-I specialize in developing secure, optimized, and user-friendly applications with clean architecture and efficient logic.
+I am a dedicated **Full Stack Developer** with a strong background in core programming, data structures, and scalable system design. I specialize in developing secure, optimized, and user-friendly applications with clean architecture and efficient logic.
 
 ### Key Expertise:
 - Scalable Web Application Development
@@ -51,6 +51,7 @@ I specialize in developing secure, optimized, and user-friendly applications wit
 ### Backend & Databases
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
 
 ### Developer Tools
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
@@ -59,7 +60,53 @@ I specialize in developing secure, optimized, and user-friendly applications wit
 
 ---
 
-## 📊 **GitHub Analytics**
+## 🎓 **Education**
+
+- **United International University**
+  *Bachelor Of Science In Computer Science And Engineering | Jan 2023 - Oct 2025*
+  CGPA: 3.86/4.00 | Merit Scholarships included.
+
+- **Chittagong Cantonment Public College**
+  *Higher Secondary Certificate In Science*
+  GPA: 5.00/5.00
+
+- **Adamjee Cantonment Public School**
+  *Secondary School Certificate In Science*
+  GPA: 5.00/5.00
+
+---
+
+## 💻 **Featured Projects**
+
+### **Safe Space**
+A comprehensive web-based safety platform designed to empower women and communities through incident reporting, real-time alerts, community support, and emergency response features.
+**Stack:** PHP, MySQL, JavaScript
+[View Code](https://github.com/Anik-tB/space-login)
+
+### **Beyond The Galaxy**
+A JavaFX-based space-themed RPG game featuring multiple game modes, multiplayer PvP battles, character progression, and an in-game marketplace.
+**Stack:** Java, JavaFX, RPG
+[View Code](https://github.com/Anik-tB/FinalBTG)
+
+### **Intelligent Industrial Safety & Workflow Prediction System (IISWPS)**
+A full-stack application designed to monitor, predict, and optimize industrial safety operations in real-time combining advanced AI algorithms with modern web technologies.
+**Stack:** AI/ML, Full-Stack, Real-Time
+[View Code](https://github.com/Anik-tB/IISWPS)
+
+---
+
+## 🏆 **Achievements**
+
+- **Champion - Beyond The Galaxy:** Secured the Champion position in the AOOP Course. Recognized for excellence in game development and software architecture with JavaFX (Fall 24).
+- **1st Runner Up - Brainwave Microcontroller:** Awarded for an innovative electronics project utilizing brainwave microcontroller technology to control interfaces via mind signals (CSE Spring 25).
+
+<div align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=Anik-tB&theme=radical&no-frame=true&column=6&margin-w=10&margin-h=10"/>
+</div>
+
+---
+
+## � **GitHub Analytics**
 
 <div align="center">
   <img height="160" src="https://github-readme-stats.vercel.app/api?username=Anik-tB&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=9D4EDD&icon_color=9D4EDD&text_color=FFFFFF"/>
@@ -72,32 +119,15 @@ I specialize in developing secure, optimized, and user-friendly applications wit
 
 ---
 
-## 🏆 **Achievements**
-
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Anik-tB&theme=radical&no-frame=true&column=6&margin-w=10&margin-h=10"/>
-</div>
-
----
-
-## 📌 **Highlighted Work**
-
-<div align="center">
-
-[![Pinned Project](https://github-readme-stats.vercel.app/api/pin/?username=Anik-tB&repo=Portfolio&theme=radical&hide_border=true&bg_color=0D1117&title_color=9D4EDD&text_color=FFFFFF)](https://github.com/Anik-tB/Portfolio)
-
-</div>
-
----
-
 ## 🤝 **Connect & Contact**
 
 <div align="center">
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/md-abu-sayum-anik)
-[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/mdabusayum)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/md-abu-sayum-anik-2a431b295)
+[![Facebook](https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white)](https://www.facebook.com/share/1CD6nUzrwJ/)
+[![Codeforces](https://img.shields.io/badge/Codeforces-1F8ACB?style=for-the-badge&logo=codeforces&logoColor=white)](https://codeforces.com/profile/aDistraction-null)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:mdabusayumanik123@gmail.com)
 [![Portfolio](https://img.shields.io/badge/Portfolio-9D4EDD?style=for-the-badge&logo=googlechrome&logoColor=white)](https://anik.dev)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:contact@anik.dev)
 
 </div>
 
