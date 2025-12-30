@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Md Abu Sayum Anik | Full Stack Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+  <canvas id="particle-canvas"></canvas>
+  <div class="cursor"></div>
+  <div class="cursor-follower"></div>
+
+  <nav class="navbar">
+    <div class="logo">Anik<span class="dot">.</span></div>
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="hamburger">
+      <div class="line1"></div>
+      <div class="line2"></div>
+      <div class="line3"></div>
+    </div>
+  </nav>
+
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <p class="greeting">Hello, I'm</p>
+      <h1 class="name">Md Abu Sayum Anik</h1>
+      <h2 class="role">I am a <span class="typing-text"></span></h2>
+      <p class="description">
+        Passionate about building scalable web applications and solving complex problems.
+        Let's create something amazing together.
+      </p>
+      <div class="hero-btns">
+        <a href="#contact" class="btn btn-primary magnetic">Hire Me</a>
+        <a href="#projects" class="btn btn-secondary magnetic">View Work</a>
+      </div>
+      <div class="social-links">
+        <a href="#" class="magnetic"><i class="fab fa-github"></i></a>
+        <a href="#" class="magnetic"><i class="fab fa-linkedin"></i></a>
+        <a href="#" class="magnetic"><i class="fab fa-twitter"></i></a>
+        <a href="#" class="magnetic"><i class="fas fa-envelope"></i></a>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="circle-gradient"></div>
+      <div class="code-card" data-tilt data-tilt-glare data-tilt-max-glare="0.5">
+        <div class="card-header">
+          <span class="dot red"></span>
+          <span class="dot yellow"></span>
+          <span class="dot green"></span>
+        </div>
+        <div class="card-body">
+          <code>
+                        <span class="keyword">const</span> developer = {<br>
+                        &nbsp;&nbsp;name: <span class="string">'Anik'</span>,<br>
+                        &nbsp;&nbsp;skills: [<span class="string">'React'</span>, <span class="string">'Node'</span>, <span class="string">'C++'</span>],<br>
+                        &nbsp;&nbsp;hardWorker: <span class="boolean">true</span><br>
+                        };
+                    </code>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="about">
+    <div class="section-header">
+      <h2 class="section-title">About Me</h2>
+      <div class="line"></div>
+    </div>
+    <div class="about-content">
+      <div class="about-text">
+        <p>
+          I am a dedicated <strong>Full Stack Developer</strong> with a strong foundation in computer science
+          principles.
+          My journey involves mastering languages like <strong>C, C++, and Java</strong>, while specializing in modern
+          web technologies
+          such as <strong>React, PHP, and MySQL</strong>.
+        </p>
+        <p>
+          I thrive on turning complex problems into elegant, efficient solutions. Whether it's building a robust
+          backend
+          or crafting an intuitive frontend, I bring creativity and technical expertise to every project.
+        </p>
+      </div>
+      <div class="stats-grid">
+        <div class="stat-card">
+          <h3>03+</h3>
+          <p>Years Experience</p>
+        </div>
+        <div class="stat-card">
+          <h3>10+</h3>
+          <p>Projects Completed</p>
+        </div>
+        <div class="stat-card">
+          <h3>05+</h3>
+          <p>Happy Clients</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills" class="skills">
+    <div class="section-header">
+      <h2 class="section-title">My Skills</h2>
+      <div class="line"></div>
+    </div>
+    <div class="skills-container">
+      <div class="skill-card">
+        <i class="fab fa-react"></i>
+        <h3>React</h3>
+      </div>
+      <div class="skill-card">
+        <i class="fab fa-js"></i>
+        <h3>JavaScript</h3>
+      </div>
+      <div class="skill-card">
+        <i class="fab fa-php"></i>
+        <h3>PHP</h3>
+      </div>
+      <div class="skill-card">
+        <i class="fas fa-database"></i>
+        <h3>MySQL</h3>
+      </div>
+      <div class="skill-card">
+        <i class="fab fa-java"></i>
+        <h3>Java</h3>
+      </div>
+      <div class="skill-card">
+        <i class="fas fa-code"></i>
+        <h3>C++</h3>
+      </div>
+      <div class="skill-card">
+        <i class="fas fa-terminal"></i>
+        <h3>C</h3>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" class="projects">
+    <div class="section-header">
+      <h2 class="section-title">Featured Projects</h2>
+      <div class="line"></div>
+    </div>
+    <div class="projects-grid">
+      <div class="project-card" data-tilt data-tilt-scale="1.05">
+        <div class="project-image">
+          <div class="img-placeholder"></div>
+        </div>
+        <div class="project-info">
+          <h3>E-Commerce Platform</h3>
+          <p>A full-featured online store built with React and PHP.</p>
+          <div class="tags">
+            <span>React</span>
+            <span>PHP</span>
+            <span>MySQL</span>
+          </div>
+          <div class="project-links">
+            <a href="#"><i class="fab fa-github"></i> Code</a>
+            <a href="#"><i class="fas fa-external-link-alt"></i> Live</a>
+          </div>
+        </div>
+      </div>
+      <div class="project-card" data-tilt data-tilt-scale="1.05">
+        <div class="project-image">
+          <div class="img-placeholder"></div>
+        </div>
+        <div class="project-info">
+          <h3>Task Management App</h3>
+          <p>Productivity tool with real-time updates and team collaboration.</p>
+          <div class="tags">
+            <span>JS</span>
+            <span>Firebase</span>
+          </div>
+          <div class="project-links">
+            <a href="#"><i class="fab fa-github"></i> Code</a>
+            <a href="#"><i class="fas fa-external-link-alt"></i> Live</a>
+          </div>
+        </div>
+      </div>
+      <div class="project-card" data-tilt data-tilt-scale="1.05">
+        <div class="project-image">
+          <div class="img-placeholder"></div>
+        </div>
+        <div class="project-info">
+          <h3>Portfolio v1</h3>
+          <p>My previous portfolio showcasing early web development work.</p>
+          <div class="tags">
+            <span>HTML</span>
+            <span>CSS</span>
+          </div>
+          <div class="project-links">
+            <a href="#"><i class="fab fa-github"></i> Code</a>
+            <a href="#"><i class="fas fa-external-link-alt"></i> Live</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <div class="section-header">
+      <h2 class="section-title">Get In Touch</h2>
+      <div class="line"></div>
+    </div>
+    <div class="contact-container">
+      <div class="contact-info">
+        <div class="info-item">
+          <i class="fas fa-envelope"></i>
+          <div>
+            <h4>Email</h4>
+            <p>contact@anik.dev</p>
+          </div>
+        </div>
+        <div class="info-item">
+          <i class="fas fa-phone"></i>
+          <div>
+            <h4>Phone</h4>
+            <p>+880 1234 567890</p>
+          </div>
+        </div>
+        <div class="info-item">
+          <i class="fas fa-map-marker-alt"></i>
+          <div>
+            <h4>Location</h4>
+            <p>Dhaka, Bangladesh</p>
+          </div>
+        </div>
+      </div>
+      <form class="contact-form">
+        <div class="form-group">
+          <input type="text" placeholder="Your Name" required>
+        </div>
+        <div class="form-group">
+          <input type="email" placeholder="Your Email" required>
+        </div>
+        <div class="form-group">
+          <textarea placeholder="Your Message" rows="5" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary magnetic">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 Md Abu Sayum Anik. All rights reserved.</p>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.8.0/vanilla-tilt.min.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
