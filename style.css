@@ -432,6 +432,17 @@ section {
   overflow: hidden;
 }
 
+.achievement-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.project-card:hover .achievement-img {
+  transform: scale(1.1);
+}
+
 .img-placeholder {
   width: 100%;
   height: 100%;
@@ -875,16 +886,34 @@ footer {
   border-color: var(--primary-color);
 }
 
+
+.education-card-link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
 .edu-icon {
   min-width: 60px;
   height: 60px;
-  background: rgba(157, 78, 221, 0.1);
+  background: rgba(255, 255, 255, 0.9);
+  /* White background for logos to pop */
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
   font-size: 24px;
   color: var(--primary-color);
+  overflow: hidden;
+  /* Keep it circular */
+  padding: 10px;
+  /* Add padding so logo has breathing room */
+}
+
+.edu-icon img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
 }
 
 .edu-content {
