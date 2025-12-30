@@ -131,6 +131,7 @@ body {
   padding: 0 10%;
   position: relative;
   overflow: hidden;
+  gap: 50px; /* Add gap between content and visual */
 }
 
 .hero-content {
@@ -218,96 +219,53 @@ body {
   transform: translateY(-3px);
 }
 
-/* Hero Visual */
+/* Hero Visual (Profile Image) */
 .hero-visual {
   position: relative;
-  width: 400px;
-  height: 400px;
+  width: 400px; /* Fixed width for visual area */
+  height: 500px; /* Taller for portrait image */
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.circle-gradient {
-  position: absolute;
+.profile-img-container {
+  position: relative;
   width: 100%;
   height: 100%;
-  background: radial-gradient(circle, rgba(157, 78, 221, 0.2) 0%, rgba(5, 5, 5, 0) 70%);
-  z-index: 1;
-  animation: pulse 6s infinite ease-in-out;
+  border-radius: 20px;
+  overflow: visible; /* For backdrop */
 }
 
-@keyframes pulse {
-  0% {
-    transform: scale(1);
-    opacity: 0.5;
-  }
-
-  50% {
-    transform: scale(1.2);
-    opacity: 0.8;
-  }
-
-  100% {
-    transform: scale(1);
-    opacity: 0.5;
-  }
-}
-
-.code-card {
-  background: rgba(20, 20, 20, 0.6);
-  backdrop-filter: blur(15px);
-  border: 1px solid var(--border);
-  border-radius: 15px;
-  padding: 20px;
-  width: 300px;
+.profile-img {
+  width: 100%;
+  height: 100%;
+  background-color: #2a2a2a; /* Placeholder color */
+  background-image: url('profile.jpeg'); /* Placeholder URL */
+  background-size: cover;
+  background-position: center;
+  border-radius: 20px;
+  border: 2px solid var(--border);
+  position: relative;
   z-index: 2;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
-  transform-style: preserve-3d;
-  transform: perspective(1000px);
+  transition: transform 0.5s ease;
 }
 
-.card-header {
-  display: flex;
-  gap: 8px;
-  margin-bottom: 15px;
+.profile-img:hover {
+  transform: scale(1.02);
+  border-color: var(--primary-color);
 }
 
-.card-header .dot {
-  width: 12px;
-  height: 12px;
-  border-radius: 50%;
-}
-
-.red {
-  background: #ff5f56;
-}
-
-.yellow {
-  background: #ffbd2e;
-}
-
-.green {
-  background: #27c93f;
-}
-
-.card-body code {
-  font-family: 'Consolas', monospace;
-  color: #a9b7c6;
-  font-size: 14px;
-  line-height: 1.5;
-}
-
-.keyword {
-  color: #cc7832;
-}
-
-.string {
-  color: #6a8759;
-}
-
-.boolean {
-  color: #9876aa;
+.img-backdrop {
+  position: absolute;
+  top: 20px;
+  right: -20px;
+  width: 100%;
+  height: 100%;
+  background: var(--gradient);
+  border-radius: 20px;
+  z-index: 1;
+  opacity: 0.3;
 }
 
 /* Sections General */
@@ -604,4 +562,143 @@ footer {
   .contact-container {
     flex-direction: column;
   }
+}
+
+/* Education Section */
+.education-container {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.education-card {
+  background: var(--card-bg);
+  backdrop-filter: blur(10px);
+  padding: 30px;
+  border-radius: 15px;
+  border: 1px solid var(--border);
+  display: flex;
+  gap: 20px;
+  transition: transform 0.3s ease, border-color 0.3s ease;
+}
+
+.education-card:hover {
+  transform: translateX(10px);
+  border-color: var(--primary-color);
+}
+
+.edu-icon {
+  min-width: 60px;
+  height: 60px;
+  background: rgba(157, 78, 221, 0.1);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  color: var(--primary-color);
+}
+
+.edu-content {
+  flex: 1;
+}
+
+.edu-content h3 {
+  font-size: 24px;
+  margin-bottom: 5px;
+  color: var(--text-color);
+}
+
+.edu-content h4 {
+  font-size: 18px;
+  color: var(--text-secondary);
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+
+.edu-meta {
+  font-size: 14px;
+  color: var(--text-secondary);
+  margin-bottom: 5px;
+  font-style: italic;
+}
+
+.edu-grade {
+  color: var(--primary-color);
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.edu-details {
+  list-style: none;
+  margin-top: 10px;
+}
+
+.edu-details li {
+  position: relative;
+  padding-left: 20px;
+  margin-bottom: 5px;
+  color: var(--text-secondary);
+  font-size: 14px;
+}
+
+.edu-details li::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  color: var(--primary-color);
+}
+
+@media (max-width: 768px) {
+  .education-card {
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .edu-icon {
+    margin: 0 auto;
+  }
+  
+  .edu-details li {
+    padding-left: 0;
+  }
+  
+  .edu-details li::before {
+    display: none;
+  }
+}
+
+.logo-img {
+  height: 40px;
+  width: auto;
+  display: block;
+}
+
+/* Skill Categories */
+.skill-category {
+  margin-bottom: 50px;
+}
+
+.category-title {
+  text-align: center;
+  font-size: 24px;
+  color: var(--primary-color);
+  margin-bottom: 30px;
+  font-weight: 600;
+  position: relative;
+  display: inline-block;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.category-title::after {
+  content: '';
+  position: absolute;
+  bottom: -8px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: var(--gradient);
 }

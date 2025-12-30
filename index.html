@@ -18,10 +18,13 @@
   <div class="cursor-follower"></div>
 
   <nav class="navbar">
-    <div class="logo">Anik<span class="dot">.</span></div>
+    <div class="logo">
+      <i>A</i><span class="dot">.</span>
+    </div>
     <ul class="nav-links">
       <li><a href="#home">Home</a></li>
       <li><a href="#about">About</a></li>
+      <li><a href="#education">Education</a></li>
       <li><a href="#skills">Skills</a></li>
       <li><a href="#projects">Projects</a></li>
       <li><a href="#contact">Contact</a></li>
@@ -47,29 +50,19 @@
         <a href="#projects" class="btn btn-secondary magnetic">View Work</a>
       </div>
       <div class="social-links">
-        <a href="#" class="magnetic"><i class="fab fa-github"></i></a>
-        <a href="#" class="magnetic"><i class="fab fa-linkedin"></i></a>
-        <a href="#" class="magnetic"><i class="fab fa-twitter"></i></a>
-        <a href="#" class="magnetic"><i class="fas fa-envelope"></i></a>
+        <a href="https://github.com/Anik-tB/" target="_blank" class="magnetic"><i class="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/md-abu-sayum-anik-2a431b295?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+          target="_blank" class="magnetic"><i class="fab fa-linkedin"></i></a>
+        <a href="https://codeforces.com/profile/aDistraction-null" target="_blank" class="magnetic"><i
+            class="fas fa-code"></i></a>
+        <a href="mailto:mdabusayumanik123@gmail.com" class="magnetic"><i class="fas fa-envelope"></i></a>
       </div>
     </div>
     <div class="hero-visual">
-      <div class="circle-gradient"></div>
-      <div class="code-card" data-tilt data-tilt-glare data-tilt-max-glare="0.5">
-        <div class="card-header">
-          <span class="dot red"></span>
-          <span class="dot yellow"></span>
-          <span class="dot green"></span>
-        </div>
-        <div class="card-body">
-          <code>
-                        <span class="keyword">const</span> developer = {<br>
-                        &nbsp;&nbsp;name: <span class="string">'Anik'</span>,<br>
-                        &nbsp;&nbsp;skills: [<span class="string">'React'</span>, <span class="string">'Node'</span>, <span class="string">'C++'</span>],<br>
-                        &nbsp;&nbsp;hardWorker: <span class="boolean">true</span><br>
-                        };
-                    </code>
-        </div>
+      <div class="profile-img-container">
+        <div class="img-backdrop"></div>
+        <!-- Placeholder for user image - User to provide -->
+        <div class="profile-img"></div>
       </div>
     </div>
   </section>
@@ -96,16 +89,60 @@
       </div>
       <div class="stats-grid">
         <div class="stat-card">
-          <h3>03+</h3>
+          <h3>01+</h3>
           <p>Years Experience</p>
         </div>
         <div class="stat-card">
-          <h3>10+</h3>
+          <h3>3+</h3>
           <p>Projects Completed</p>
         </div>
         <div class="stat-card">
-          <h3>05+</h3>
+          <h3>00</h3>
           <p>Happy Clients</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="education" class="education">
+    <div class="section-header">
+      <h2 class="section-title">Education</h2>
+      <div class="line"></div>
+    </div>
+    <div class="education-container">
+      <!-- University -->
+      <div class="education-card">
+        <div class="edu-icon"><i class="fas fa-graduation-cap"></i></div>
+        <div class="edu-content">
+          <h3>United International University</h3>
+          <h4>Bachelor Of Science In Computer Science And Engineering</h4>
+          <p class="edu-meta">Dhaka, Bangladesh | Jan 2023 - Oct 2025</p>
+          <p class="edu-grade">Grade: 3.86 out of 4.00</p>
+          <ul class="edu-details">
+            <li>Multiple times scholarship based on merits (100%, 50%, 25%)</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- College -->
+      <div class="education-card">
+        <div class="edu-icon"><i class="fas fa-university"></i></div>
+        <div class="edu-content">
+          <h3>Chittagong Cantonment Public College</h3>
+          <h4>Higher Secondary Certificate In Science</h4>
+          <p class="edu-meta">Chittagong, Bangladesh</p>
+          <p class="edu-grade">Grade: 5.00 out of 5.00</p>
+        </div>
+      </div>
+
+      <!-- School -->
+      <div class="education-card">
+        <div class="edu-icon"><i class="fas fa-school"></i></div>
+        <div class="edu-content">
+          <h3>Adamjee Cantonment Public School</h3>
+          <h4>Secondary School Certificate In Science</h4>
+          <p class="edu-meta">Dhaka Cantonment, Dhaka, Bangladesh</p>
+          <p class="edu-grade">Grade: 5.00 out of 5.00</p>
         </div>
       </div>
     </div>
@@ -116,34 +153,65 @@
       <h2 class="section-title">My Skills</h2>
       <div class="line"></div>
     </div>
-    <div class="skills-container">
-      <div class="skill-card">
-        <i class="fab fa-react"></i>
-        <h3>React</h3>
+
+    <!-- Frontend Skills -->
+    <div class="skill-category">
+      <h3 class="category-title">Frontend</h3>
+      <div class="skills-container">
+        <div class="skill-card">
+          <i class="fab fa-react"></i>
+          <h3>React</h3>
+        </div>
+        <div class="skill-card">
+          <i class="fab fa-js"></i>
+          <h3>JavaScript</h3>
+        </div>
+        <div class="skill-card">
+          <i class="fab fa-html5"></i>
+          <h3>HTML5</h3>
+        </div>
+        <div class="skill-card">
+          <i class="fab fa-css3-alt"></i>
+          <h3>CSS3</h3>
+        </div>
       </div>
-      <div class="skill-card">
-        <i class="fab fa-js"></i>
-        <h3>JavaScript</h3>
+    </div>
+
+    <!-- Backend Skills -->
+    <div class="skill-category">
+      <h3 class="category-title">Backend</h3>
+      <div class="skills-container">
+        <div class="skill-card">
+          <i class="fab fa-php"></i>
+          <h3>PHP</h3>
+        </div>
+        <div class="skill-card">
+          <i class="fab fa-java"></i>
+          <h3>Java</h3>
+        </div>
+        <div class="skill-card">
+          <i class="fas fa-code"></i>
+          <h3>C++</h3>
+        </div>
+        <div class="skill-card">
+          <i class="fas fa-terminal"></i>
+          <h3>C</h3>
+        </div>
       </div>
-      <div class="skill-card">
-        <i class="fab fa-php"></i>
-        <h3>PHP</h3>
-      </div>
-      <div class="skill-card">
-        <i class="fas fa-database"></i>
-        <h3>MySQL</h3>
-      </div>
-      <div class="skill-card">
-        <i class="fab fa-java"></i>
-        <h3>Java</h3>
-      </div>
-      <div class="skill-card">
-        <i class="fas fa-code"></i>
-        <h3>C++</h3>
-      </div>
-      <div class="skill-card">
-        <i class="fas fa-terminal"></i>
-        <h3>C</h3>
+    </div>
+
+    <!-- Database Skills -->
+    <div class="skill-category">
+      <h3 class="category-title">Database</h3>
+      <div class="skills-container">
+        <div class="skill-card">
+          <i class="fas fa-database"></i>
+          <h3>MySQL</h3>
+        </div>
+        <div class="skill-card">
+          <i class="fas fa-fire"></i>
+          <h3>Firebase</h3>
+        </div>
       </div>
     </div>
   </section>
@@ -159,16 +227,16 @@
           <div class="img-placeholder"></div>
         </div>
         <div class="project-info">
-          <h3>E-Commerce Platform</h3>
-          <p>A full-featured online store built with React and PHP.</p>
+          <h3>Safe Space</h3>
+          <p>A comprehensive web-based safety platform designed to empower women and communities through incident
+            reporting, real-time alerts, community support, and emergency response features.</p>
           <div class="tags">
-            <span>React</span>
             <span>PHP</span>
             <span>MySQL</span>
+            <span>JavaScript</span>
           </div>
           <div class="project-links">
-            <a href="#"><i class="fab fa-github"></i> Code</a>
-            <a href="#"><i class="fas fa-external-link-alt"></i> Live</a>
+            <a href="https://github.com/Anik-tB/space-login" target="_blank"><i class="fab fa-github"></i> Code</a>
           </div>
         </div>
       </div>
@@ -177,15 +245,16 @@
           <div class="img-placeholder"></div>
         </div>
         <div class="project-info">
-          <h3>Task Management App</h3>
-          <p>Productivity tool with real-time updates and team collaboration.</p>
+          <h3>Beyond The Galaxy</h3>
+          <p>A JavaFX-based space-themed RPG game featuring multiple game modes, multiplayer PvP battles, character
+            progression, and an in-game marketplace.</p>
           <div class="tags">
-            <span>JS</span>
-            <span>Firebase</span>
+            <span>Java</span>
+            <span>JavaFX</span>
+            <span>RPG</span>
           </div>
           <div class="project-links">
-            <a href="#"><i class="fab fa-github"></i> Code</a>
-            <a href="#"><i class="fas fa-external-link-alt"></i> Live</a>
+            <a href="https://github.com/Anik-tB/FinalBTG" target="_blank"><i class="fab fa-github"></i> Code</a>
           </div>
         </div>
       </div>
@@ -194,18 +263,22 @@
           <div class="img-placeholder"></div>
         </div>
         <div class="project-info">
-          <h3>Portfolio v1</h3>
-          <p>My previous portfolio showcasing early web development work.</p>
+          <h3>Intelligent Industrial Safety & Workflow Prediction System (IISWPS)</h3>
+          <p>A comprehensive full-stack application designed to monitor, predict, and optimize industrial safety
+            operations in real-time. It combines advanced AI algorithms with modern web technologies to provide
+            actionable insights for industrial safety management.</p>
           <div class="tags">
-            <span>HTML</span>
-            <span>CSS</span>
+            <span>AI/ML</span>
+            <span>Full-Stack</span>
+            <span>Real-Time</span>
+            <span>Safety</span>
           </div>
           <div class="project-links">
-            <a href="#"><i class="fab fa-github"></i> Code</a>
-            <a href="#"><i class="fas fa-external-link-alt"></i> Live</a>
+            <a href="https://github.com/Anik-tB/IISWPS" target="_blank"><i class="fab fa-github"></i> Code</a>
           </div>
         </div>
       </div>
+
     </div>
   </section>
 
@@ -220,14 +293,14 @@
           <i class="fas fa-envelope"></i>
           <div>
             <h4>Email</h4>
-            <p>contact@anik.dev</p>
+            <p>mdabusayumanik123@gmail.com</p>
           </div>
         </div>
         <div class="info-item">
           <i class="fas fa-phone"></i>
           <div>
             <h4>Phone</h4>
-            <p>+880 1234 567890</p>
+            <p>+880 1580822171</p>
           </div>
         </div>
         <div class="info-item">
@@ -254,7 +327,7 @@
   </section>
 
   <footer>
-    <p>&copy; 2024 Md Abu Sayum Anik. All rights reserved.</p>
+    <p>&copy; 2025 Md Abu Sayum Anik. All rights reserved.</p>
   </footer>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.8.0/vanilla-tilt.min.js"></script>
