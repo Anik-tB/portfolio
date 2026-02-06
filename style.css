@@ -20,8 +20,6 @@
   box-sizing: border-box;
   font-family: 'Outfit', sans-serif;
   scroll-behavior: smooth;
-  cursor: none;
-  /* Custom cursor */
 }
 
 body {
@@ -42,28 +40,7 @@ body {
   opacity: 0.5;
 }
 
-/* Custom Cursor */
-.cursor {
-  width: 10px;
-  height: 10px;
-  border: 1px solid var(--primary-color);
-  border-radius: 50%;
-  position: fixed;
-  pointer-events: none;
-  z-index: 9999;
-  transition: transform 0.2s ease-out;
-}
 
-.cursor-follower {
-  width: 30px;
-  height: 30px;
-  background: rgba(157, 78, 221, 0.2);
-  border-radius: 50%;
-  position: fixed;
-  pointer-events: none;
-  z-index: 9998;
-  transition: transform 0.3s ease-out;
-}
 
 /* Navbar */
 .navbar {
@@ -249,8 +226,7 @@ body {
   text-decoration: none;
   font-weight: 600;
   transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
-  cursor: none;
-  /* Let custom cursor handle it */
+  cursor: pointer;
   position: relative;
   overflow: hidden;
 }
