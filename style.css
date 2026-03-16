@@ -1351,6 +1351,15 @@ section {
     grid-template-columns: 1fr;
   }
 
+  .featured-project .project-copy {
+    order: 1;
+  }
+
+  .featured-project .project-visual {
+    order: 2;
+    border-radius: 0;
+  }
+
   .education-grid {
     grid-template-columns: 1fr;
   }
@@ -1514,10 +1523,27 @@ section {
   }
 
   .achievement-media,
-  .project-media,
-  .project-visual {
+  .project-media {
     min-height: 220px;
     height: 220px;
+  }
+
+  .project-visual {
+    min-height: 200px;
+    height: auto;
+  }
+
+  /* Ensure project card sections blend seamlessly on mobile */
+  .project-card .project-visual {
+    border-radius: var(--radius-lg) var(--radius-lg) 0 0;
+  }
+
+  .project-card .project-copy {
+    border-radius: 0 0 var(--radius-lg) var(--radius-lg);
+  }
+
+  .project-card .project-media {
+    border-radius: var(--radius-lg) var(--radius-lg) 0 0;
   }
 
   .achievement-content h3,
