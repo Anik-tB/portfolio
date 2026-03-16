@@ -1439,6 +1439,10 @@ section {
     grid-template-columns: 1fr;
   }
 
+  .featured-project {
+    grid-column: span 1;
+  }
+
   .contact-card {
     flex-direction: column;
     align-items: flex-start;
