@@ -12,7 +12,6 @@ const revealItems = Array.from(document.querySelectorAll(".reveal"));
 const observedSections = Array.from(document.querySelectorAll("main section[id]"));
 const sectionIds = new Set(observedSections.map((section) => section.id));
 const scrollProgress = document.getElementById("scroll-progress");
-const cursorGlow = document.getElementById("cursor-glow");
 const filterButtons = Array.from(document.querySelectorAll(".filter-btn"));
 const projectCards = Array.from(document.querySelectorAll(".project-card"));
 const supportsIntersectionObserver = "IntersectionObserver" in window;
@@ -159,34 +158,6 @@ const setupSectionObserver = () => {
   observedSections.forEach((section) => sectionObserver.observe(section));
 };
 
-const setupCursorGlow = () => {
-  if (!cursorGlow || prefersReducedMotion || window.innerWidth <= 920) return;
-
-  let rafId = null;
-  let mouseX = 0;
-  let mouseY = 0;
-
-  document.addEventListener("mousemove", (event) => {
-    mouseX = event.clientX;
-    mouseY = event.clientY;
-
-    if (!cursorGlow.classList.contains("active")) {
-      cursorGlow.classList.add("active");
-    }
-
-    if (rafId) return;
-    rafId = requestAnimationFrame(() => {
-      cursorGlow.style.left = `${mouseX}px`;
-      cursorGlow.style.top = `${mouseY}px`;
-      rafId = null;
-    });
-  });
-
-  document.addEventListener("mouseleave", () => {
-    cursorGlow.classList.remove("active");
-  });
-};
-
 const animateCounter = (element, target, duration = 1200) => {
   const isFloat = String(target).includes(".");
   const originalText = element.textContent;
@@ -317,7 +288,6 @@ window.addEventListener("load", () => {
 
 setupRevealObserver();
 setupSectionObserver();
-setupCursorGlow();
 setupCounters();
 setupProjectFilters();
 setNavbarState();

@@ -122,29 +122,6 @@ a {
     linear-gradient(118deg, transparent 0%, rgba(9, 105, 218, 0.05) 38%, transparent 39%),
     linear-gradient(62deg, transparent 0%, rgba(197, 104, 40, 0.08) 64%, transparent 65%);
 }
-
-.cursor-glow {
-  position: fixed;
-  left: 0;
-  top: 0;
-  z-index: 5;
-  width: 132px;
-  height: 132px;
-  border: 1px solid rgba(9, 105, 218, 0.14);
-  border-radius: var(--radius);
-  background:
-    linear-gradient(135deg, rgba(9, 105, 218, 0.08), rgba(15, 138, 95, 0.04)),
-    linear-gradient(45deg, transparent 48%, rgba(21, 21, 19, 0.08) 49%, rgba(21, 21, 19, 0.08) 51%, transparent 52%);
-  opacity: 0;
-  pointer-events: none;
-  transform: translate(-50%, -50%);
-  transition: left 0.14s ease, top 0.14s ease, opacity 0.2s ease;
-}
-
-.cursor-glow.active {
-  opacity: 1;
-}
-
 main {
   padding: 0 24px 112px;
 }
