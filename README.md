@@ -102,9 +102,9 @@
   </table>
 </div>
 
-<div align="center">
+<!-- <div align="center">
   <img src="https://github-profile-trophy.vercel.app/?username=Anik-tB&theme=radical&no-frame=true&column=6&margin-w=10&margin-h=10"/>
-</div>
+</div> -->
 
 ### 📊 GitHub Stats
 
@@ -114,7 +114,7 @@
 </div>
 <br>
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Anik-tB&theme=radical&hide_border=true&background=0D1117&ring=9D4EDD&fire=9D4EDD&currStreakLabel=9D4EDD"/>
+  <img src="assets/streak-stats.svg"/>
 </div>
 
 ---
