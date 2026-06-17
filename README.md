@@ -44,7 +44,7 @@
     <td>
       <b>United International University</b><br>
       <i>B.Sc. in Computer Science & Engineering</i> | sep 2023 - ongoing<br>
-     current CGPA: 3.86/4.00 | 🏆 Multiple Merit Scholarships
+     current CGPA: 3.87/4.00 | 🏆 Multiple Merit Scholarships
     </td>
   </tr>
   <tr>
@@ -78,6 +78,7 @@
 
 | Project | Description | Stack |
 | :--- | :--- | :--- |
+| **[GenoNexus](https://github.com/Anik-tB/GENO_NEXUS)** | Enterprise-grade genomics and diagnostics ecosystem with a three-portal architecture, AI alignment pipeline, pharmacogenomics prescribing, and 3D WebGL chromosome map. | Next.js, React, TypeScript, Python, FastAPI, PostgreSQL, Firebase |
 | **[Safe Space](https://github.com/Anik-tB/space-login)** | A web-based safety platform empowering communities with incident reporting and real-time alerts. | PHP, MySQL, JS |
 | **[Beyond The Galaxy](https://github.com/Anik-tB/FinalBTG)** | A JavaFX space-themed RPG with multiplayer PvP, marketplace, and character progression. | Java, JavaFX |
 | **[IISWPS](https://github.com/Anik-tB/IISWPS)** | AI-driven system for monitoring and predicting industrial safety workflows in real-time. | AI/ML, Full-Stack |

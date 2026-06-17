@@ -1,277 +1,438 @@
+<!-- ══════════════════════════════════════════════════════════════════ -->
+<!--              ANIK-tB ⟡ GITHUB PROFILE README v3.0                -->
+<!-- ══════════════════════════════════════════════════════════════════ -->
+
 <div align="center">
 
-# 👨‍💻 Md Abu Sayum Anik
+<!-- ANIMATED BANNER -->
+<a href="https://github.com/Anik-tB">
+  <img src="assets/banner.gif" width="100%" alt="Anik-tB Banner"/>
+</a>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,12,20&height=180&section=header&text=Full%20Stack%20Developer&fontSize=50&fontAlignY=35&animation=twinkling&fontColor=fff&desc=Turning%20Ideas%20Into%20Elegant%20Code&descAlignY=55&descSize=18" width="100%"/>
+<br/><br/>
 
-<p>
-  <a href="https://github.com/Anik-tB">
-    <img src="https://img.shields.io/github/followers/Anik-tB?label=Followers&style=for-the-badge&color=9D4EDD&labelColor=1a1a1a&logo=github" alt="GitHub Followers"/>
-  </a>
-  <a href="https://github.com/Anik-tB">
-    <img src="https://komarev.com/ghpvc/?username=Anik-tB&style=for-the-badge&color=9D4EDD&labelColor=1a1a1a&label=Profile+Views" alt="Profile Views"/>
-  </a>
-  <img src="https://img.shields.io/badge/Focus-Full%20Stack%20Development-9D4EDD?style=for-the-badge&labelColor=1a1a1a" alt="Focus"/>
-</p>
+<!-- BOOT SEQUENCE -->
+<img src="https://readme-typing-svg.herokuapp.com?font=Share+Tech+Mono&size=13&pause=1000&color=00FF41&center=true&vCenter=true&width=650&lines=%5BSYSTEM+BOOT%5D+Loading+identity+module...;%5BCORE+LOADED%5D+All+systems+nominal.;%5BONLINE%5D+Welcome%2C+Adventurer.+Anik-tB+is+ready.+%E2%9A%A1" />
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&duration=3000&pause=1000&color=9D4EDD&center=true&vCenter=true&multiline=true&repeat=true&width=800&height=100&lines=Full+Stack+Developer+%F0%9F%9A%80;Problem+Solver+%F0%9F%A7%A9;Clean+Code+Enthusiast+%E2%9C%A8;Always+Learning+%F0%9F%93%9A" alt="Typing SVG" />
+<br/><br/>
+
+<!-- ANIMATED ROLES -->
+<img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&weight=700&size=22&duration=2000&pause=600&color=BD00FF&center=true&vCenter=true&width=900&lines=%E2%9A%94%EF%B8%8F+Beyond+The+Galaxy+Showcase+Champion+%5BLEGENDARY%5D;%F0%9F%A7%AA+System+Design+%26+OOP+Architect;%F0%9F%92%BB+Full+Stack+%26+Android+Engineer;%F0%9F%8E%AE+Crafting+Immersive+High-Fidelity+Software;%F0%9F%9B%B0%EF%B8%8F+Scalable+Distributed+System+Builder" />
+
+<br/><br/>
+
+<!-- BADGE ROW -->
+<a href="https://github.com/Anik-tB">
+  <img src="https://komarev.com/ghpvc/?username=Anik-tB&label=PROFILE+VIEWS&color=BD00FF&style=for-the-badge" />
+</a>
+&nbsp;
+<a href="https://github.com/Anik-tB?tab=followers">
+  <img src="https://img.shields.io/github/followers/Anik-tB?label=FOLLOWERS&style=for-the-badge&color=6A0DAD&labelColor=0D0D0D" />
+</a>
+&nbsp;
+<img src="https://img.shields.io/badge/STATUS-⚡_ONLINE-00FF41?style=for-the-badge&labelColor=0D0D0D" />
+&nbsp;
+<img src="https://img.shields.io/badge/OPEN_TO-COLLABORATE-BD00FF?style=for-the-badge&labelColor=0D0D0D" />
 
 </div>
 
+<br/>
+
 ---
 
-## 🎯 About Me
+<!-- ══════════════════════════════════════════════════════════════════ -->
+<!--                    SECTION I · PLAYER PROFILE                    -->
+<!-- ══════════════════════════════════════════════════════════════════ -->
 
-```typescript
-const anik = {
-    name: "Md Abu Sayum Anik",
-    role: "Full Stack Developer",
-    location: "Bangladesh 🇧🇩",
-    education: "Computer Science Student",
+<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=6,11,20&height=2" width="100%"/>
 
-    currentFocus: {
-        learning: ["Advanced React Patterns", "System Design", "Cloud Architecture"],
-        building: ["Scalable Web Applications", "RESTful APIs", "Modern UI/UX"],
-        exploring: ["Microservices", "DevOps", "AI Integration"]
-    },
+<h2 align="center">🛰️ PLAYER PROFILE &amp; IDENTITY MODULE</h2>
 
-    philosophy: "Every bug is just an undiscovered feature! 🐛✨",
+<br/>
 
-    workingOn: () => {
-        return "Building elegant solutions to complex problems";
-    },
+<div align="center">
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="55%" valign="top">
 
-    funFact: "I debug with console.log and I'm not ashamed! 😄"
-};
+```yaml
+# ── IDENTITY CARD ────────────────────────────────────
+  Name      :  Md Abu Sayum Anik
+  Alias     :  Anik-tB
+  Class     :  Full-Stack & Mobile Architect
+  Level     :  23
+  Guild     :  United International University
+  Degree    :  BSc — Computer Science & Engineering
+  Region    :  Dhaka, Bangladesh 🇧🇩
+  Timezone  :  UTC+6 · BDT
+
+# ── SKILL STATS ──────────────────────────────────────
+  System Architecture  ████████████  100%  ★ MAX
+  Mobile Engineering   ███████████░   90%
+  UI/UX Engineering    ███████████░   90%
+  Database & Scale     █████████░░░   80%
+  Competitive Logic    █████████░░░   80%
+
+# ── PASSIVE TRAITS ───────────────────────────────────
+  [ LEGENDARY ] Showcase Champion · Beyond The Galaxy
+  [ EPIC      ] OOP & Design Patterns Overlord
+  [ EPIC      ] Gamified UI Engineering Specialist
+  [ RARE      ] Asynchronous Systems Designer
 ```
 
-<div align="center">
+</td>
+<td width="45%" valign="middle" align="center">
 
-### 💡 Quick Highlights
+<img src="https://ghrs.vercel.app/api?username=Anik-tB&show_icons=true&count_private=true&theme=tokyonight&hide_border=true&bg_color=0D0D0D&title_color=BD00FF&icon_color=BD00FF&text_color=C9D1D9&ring_color=BD00FF&border_radius=12" width="100%"/>
 
-🔭 Building **scalable web applications** with modern tech stacks
-🌱 Mastering **C, C++, Java, PHP, MySQL, JavaScript & React**
-💻 Passionate about **clean code** and **best practices**
-🎨 Love creating **beautiful, intuitive user interfaces**
-⚡ Always excited to **learn new technologies**
+<br/>
 
+<img src="https://ghrs.vercel.app/api/top-langs/?username=Anik-tB&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D0D0D&title_color=BD00FF&text_color=C9D1D9&border_radius=12&langs_count=6" width="100%"/>
+
+</td>
+</tr>
+</table>
 </div>
+
+<br/>
 
 ---
 
-## 🛠️ Tech Arsenal
+<!-- ══════════════════════════════════════════════════════════════════ -->
+<!--                  SECTION II · SYSTEM TELEMETRY HUD               -->
+<!-- ══════════════════════════════════════════════════════════════════ -->
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=6,11,20&height=2" width="100%"/>
+
+<h2 align="center">📡 SYSTEM TELEMETRY — LIVE HUD</h2>
+
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Share+Tech+Mono&size=13&pause=1000&color=00FF41&center=true&vCenter=true&width=600&lines=%5BTELEMETRY%5D+Fetching+live+combat+data...;%5BCORE%5D+Stats+module+loaded+successfully.;%5BHUD%5D+All+systems+online.+Displaying+metrics." />
+</p>
+
+<br/>
 
 <div align="center">
 
-### 💻 Languages
-![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+<!-- ROW 1: Streak & Productive Time (Side-by-Side) -->
+<table border="0" cellspacing="0" cellpadding="4" align="center">
+<tr>
+<td width="60%" align="center">
+  <strong>🔥 COMBAT STREAK</strong><br/><br/>
+  <img src="assets/streak-stats.svg" width="100%"/>
+</td>
+<td width="40%" align="center">
+  <strong>⏳ PRODUCTIVE TIME</strong><br/><br/>
+  <img src="profile-summary-card-output/tokyonight/4-productive-time.svg" width="100%"/>
+</td>
+</tr>
+</table>
 
-### 🎨 Frontend Development
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![TailwindCSS](https://img.shields.io/badge/Tailwind-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
-![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white)
+<br/>
 
-### ⚙️ Backend & Database
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
-![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
+<!-- ROW 2: Profile Details (Full Width) -->
+**📊 MISSION SUMMARY & PROFILE DETAILS**
 
-### 🔧 Tools & Technologies
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
-![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+<img src="profile-summary-card-output/tokyonight/0-profile-details.svg" width="100%"/>
+
+<br/><br/>
+
+<!-- ROW 3: Activity Graph (Full Width) -->
+**🌐 CONTRIBUTION ACTIVITY MAP**
+
+<img src="assets/activity-graph.svg" width="100%"/>
 
 </div>
+
+<br/>
 
 ---
 
-## 📊 GitHub Analytics
+<!-- ══════════════════════════════════════════════════════════════════ -->
+<!--                  SECTION III · SKILL ARSENAL                     -->
+<!-- ══════════════════════════════════════════════════════════════════ -->
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=6,11,20&height=2" width="100%"/>
+
+<h2 align="center">🎒 SYSTEM INVENTORY &amp; ARSENAL</h2>
+
+<br/>
 
 <div align="center">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=Anik-tB&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=9D4EDD&icon_color=9D4EDD&text_color=FFFFFF&ring_color=9D4EDD&count_private=true&include_all_commits=true" alt="GitHub Stats"/>
-  <img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=Anik-tB&theme=radical&hide_border=true&background=0D1117&ring=9D4EDD&fire=9D4EDD&currStreakLabel=9D4EDD&sideLabels=FFFFFF&currStreakNum=FFFFFF&sideNums=FFFFFF" alt="GitHub Streak"/>
+
+### ⚔️ CORE LANGUAGE WEAPONS
+
+| &nbsp; | WEAPON | TYPE | MASTERY |
+|:---:|:---|:---|:---:|
+| 🟡 `LEGENDARY` | **Java** — *The Greatsword* | Compiled OOP · JVM Domination | `MAX ★★★★★` |
+| 🟣 `EPIC` | **Kotlin** — *The Aegis* | Modern Mobile · Null Safety | `Lvl 9 ★★★★☆` |
+| 🟣 `EPIC` | **TypeScript / JS** — *The Spellbook* | Full-Stack Scripting · Async Logic | `Lvl 9 ★★★★☆` |
+| 🟣 `EPIC` | **Python** — *The Serpent* | AI/ML · Automation · Data | `Lvl 9 ★★★★☆` |
+| 🔵 `RARE` | **PHP** — *The Catalyst* | Backend Elixir · Rapid API | `Lvl 8 ★★★★☆` |
+| 🔵 `RARE` | **C++** — *The Reflex* | Low-Level · Memory & Speed | `Lvl 8 ★★★☆☆` |
+
+<br/>
+
+### 🔮 FULL STACK RELICS
+
+<a href="https://skillicons.dev">
+  <img src="https://skillicons.dev/icons?i=react,nextjs,nodejs,express,html,css,tailwind&perline=7" />
+</a>
+
+<br/><br/>
+
+### ⚡ MOBILE · DATABASE · DEVOPS
+
+<a href="https://skillicons.dev">
+  <img src="https://skillicons.dev/icons?i=androidstudio,kotlin,java,firebase,mysql,postgres,mongodb,redis&perline=8" />
+</a>
+
+<br/><br/>
+
+### 🛠️ TOOLS & FORGE
+
+<a href="https://skillicons.dev">
+  <img src="https://skillicons.dev/icons?i=git,github,docker,linux,vscode,idea,figma,postman&perline=8" />
+</a>
+
 </div>
 
-<div align="center">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Anik-tB&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&title_color=9D4EDD&text_color=FFFFFF&langs_count=8" alt="Top Languages"/>
-  <img width="49%" src="https://github-readme-activity-graph.vercel.app/graph?username=Anik-tB&theme=react-dark&hide_border=true&bg_color=0D1117&color=9D4EDD&line=9D4EDD&point=FFFFFF&area=true&custom_title=Contribution%20Graph" alt="Activity Graph"/>
-</div>
+<br/>
 
 ---
 
-## 🏆 GitHub Achievements
+<!-- ══════════════════════════════════════════════════════════════════ -->
+<!--                   SECTION IV · QUEST LOG                         -->
+<!-- ══════════════════════════════════════════════════════════════════ -->
 
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Anik-tB&theme=radical&no-frame=true&no-bg=true&column=7&margin-w=10&margin-h=10&title=Commits,Repositories,Stars,Followers,PullRequest,Issues,MultiLanguage" alt="GitHub Trophies"/>
-</div>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=6,11,20&height=2" width="100%"/>
+
+<h2 align="center">🚀 QUEST LOG &amp; MISSION BOARD</h2>
+
+<br/>
+
+<!-- ── QUEST I ──────────────────────────────────────────────────── -->
+
+<table width="100%">
+<tr>
+<td width="16%" align="center" valign="middle">
+
+<img src="assets/dna-helix.png" width="75px"/>
+
+<br/>
+
+![](https://img.shields.io/badge/🟡-LEGENDARY-FFD700?style=flat-square&labelColor=1A1A2E)
+![](https://img.shields.io/badge/STATUS-ACTIVE_⚡-FF6B00?style=flat-square&labelColor=1A1A2E)
+
+`✦✦✦✦✦ EXPERT`
+`Active Mission`
+
+</td>
+<td valign="top">
+
+### 🧬 QUEST I — GENONEXUS
+
+> *"Build a comprehensive, enterprise-grade genomics and diagnostics ecosystem bridging clinical research, labs, and patients."*
+
+- 🌐 **Three-Portal Ecosystem** — Role-based interfaces for researchers/clinicians (`/dashboard`), patients (`/user/dashboard`), and visitors.
+- ⚙️ **AI Genomics Pipeline** — Virus-agnostic alignment (Needleman-Wunsch) and Random Forest mutation severity scoring.
+- 💊 **Pharmacogenomics Engine** — CPIC/FDA-guided drug-gene mapping to enzyme profiles (CYP2D6, CYP2C19) for precision prescribing.
+- 📊 **Disease Outbreak Predictor** — Real-time forecasting model utilizing WHO and disease.sh APIs with a Python ML regressor.
+- 🎨 **3D Genome Browser** — Renders high-fidelity WebGL chromosome mutation density mapping directly in the browser.
+
+</td>
+</tr>
+</table>
+
+<br/>
+
+<!-- ── QUEST II ─────────────────────────────────────────────────── -->
+
+<table width="100%">
+<tr>
+<td width="16%" align="center" valign="middle">
+
+<img src="assets/galaxy.png" width="75px"/>
+
+<br/>
+
+![](https://img.shields.io/badge/🟡-LEGENDARY-FFD700?style=flat-square&labelColor=1A1A2E)
+![](https://img.shields.io/badge/STATUS-COMPLETED_🏆-00FF41?style=flat-square&labelColor=1A1A2E)
+
+`✦✦✦✦✦ EXPERT`
+`+5,000 XP`
+
+</td>
+<td valign="top">
+
+### 🌌 QUEST II — BEYOND THE GALAXY
+
+> *"Design a fully interactive custom JavaFX Desktop RPG engine that redefines what a student showcase can be."*
+
+- 🥇 **LEGENDARY BOSS DROP** — 1st Place among **50+ developer guilds** at Beyond The Galaxy AOOP Showcase
+- ⚙️ **Asynchronous Battle Engine** — Complex multi-player turn-based algorithms with real-time state machines
+- 🏪 **Player Economy System** — Fully transactional in-game marketplace with inventory persistence & trade logic
+- 🧠 **Architecture Overlord** — Fused **MVC + Strategy + Observer + Factory** patterns into one cohesive engine
+- 🎮 **World Systems** — Dynamic dungeon generation, character leveling, quest branches & dialogue trees
+
+</td>
+</tr>
+</table>
+
+<br/>
+
+<!-- ── QUEST III ────────────────────────────────────────────────── -->
+
+<table width="100%">
+<tr>
+<td width="16%" align="center" valign="middle">
+
+<img src="assets/shield.png" width="75px"/>
+
+<br/>
+
+![](https://img.shields.io/badge/🟣-EPIC-9B59B6?style=flat-square&labelColor=1A1A2E)
+![](https://img.shields.io/badge/STATUS-ACTIVE_⚡-FF6B00?style=flat-square&labelColor=1A1A2E)
+
+`✦✦✦✦✧ ADVANCED`
+`Active Mission`
+
+</td>
+<td valign="top">
+
+### 🛡️ QUEST III — SAFE SPACE
+
+> *"Build a robust, scalable community safety SOS network for real-world crisis response."*
+
+- 🚨 **Instant SOS Beacon** — Geo-tagged incident distress signals with real-time location tracking
+- 🔑 **Multi-Tier Auth System** — Role-based authorization (Admin / Responder / Civilian) with JWT
+- 🗺️ **Live Command Map** — Real-time distress heatmaps, incident clustering & analytical dashboards
+- 📡 **Alert Routing Engine** — SMS + push-notification multi-vector alert delivery pipelines
+- 🔐 **Security Layer** — Encrypted incident reports, audit trails & session hardening
+
+</td>
+</tr>
+</table>
+
+<br/>
 
 ---
 
-## 🐍 Contribution Snake
+<!-- ══════════════════════════════════════════════════════════════════ -->
+<!--                  SECTION V · TROPHY CABINET                      -->
+<!-- ══════════════════════════════════════════════════════════════════ -->
 
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Anik-tB/Anik-tB/output/github-contribution-grid-snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Anik-tB/Anik-tB/output/github-contribution-grid-snake.svg">
-    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/Anik-tB/Anik-tB/output/github-contribution-grid-snake.svg">
-  </picture>
-</div>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=6,11,20&height=2" width="100%"/>
 
----
+<h2 align="center">🏆 GUILD TROPHY CABINET</h2>
 
-## 💼 Featured Projects
+<br/>
 
 <div align="center">
 
-### 🌟 Highlighted Work
+<!-- <img src="https://github-profile-trophy.vercel.app/?username=Anik-tB&theme=radical&no-frame=true&no-bg=true&column=4&margin-w=12&margin-h=12" width="90%"/> -->
+
+<br/><br/>
 
 <table>
-  <tr>
-    <td width="50%">
-      <h3 align="center">🎨 Portfolio Website</h3>
-      <div align="center">
-        <a href="https://github.com/Anik-tB/Anik-portfolio">
-          <img src="https://github-readme-stats.vercel.app/api/pin/?username=Anik-tB&repo=Anik-portfolio&theme=radical&hide_border=true&bg_color=0D1117&title_color=9D4EDD&icon_color=9D4EDD&text_color=FFFFFF" alt="Portfolio"/>
-        </a>
-        <p><strong>Tech Stack:</strong> HTML, CSS, JavaScript</p>
-        <p>Modern, responsive portfolio showcasing my work and skills with stunning animations and interactive elements.</p>
-      </div>
-    </td>
-    <td width="50%">
-      <h3 align="center">🚀 Coming Soon</h3>
-      <div align="center">
-        <p><strong>Exciting projects in development!</strong></p>
-        <p>Stay tuned for innovative web applications, open-source contributions, and creative coding experiments.</p>
-        <br>
-        <p>⭐ Star my repos to stay updated!</p>
-      </div>
-    </td>
-  </tr>
+<tr>
+<td align="center" width="33%">
+
+<img src="https://img.icons8.com/emoji/96/trophy-emoji.png" width="55px"/>
+
+**🥇 CHAMPION TITLE**
+*Beyond The Galaxy AOOP Showcase*
+`JavaFX · RPG Engine · Design Patterns`
+
+![](https://img.shields.io/badge/RANK-LEGENDARY-FFD700?style=flat-square&labelColor=1A1A2E)
+
+</td>
+<td align="center" width="33%">
+
+<img src="https://img.icons8.com/emoji/96/2nd-place-medal-emoji.png" width="55px"/>
+
+**🥈 1ST RUNNER UP**
+*Brainwave Microcontroller Hackathon*
+`Embedded Systems · Hardware`
+
+![](https://img.shields.io/badge/RANK-EPIC-9B59B6?style=flat-square&labelColor=1A1A2E)
+
+</td>
+<td align="center" width="33%">
+
+<img src="https://img.icons8.com/emoji/96/graduation-cap-emoji.png" width="55px"/>
+
+**🎓 ELITE SCHOLAR**
+*UIU Academic Merit Scholarship*
+`Consecutive Academic Excellence`
+
+![](https://img.shields.io/badge/RANK-EPIC-9B59B6?style=flat-square&labelColor=1A1A2E)
+
+</td>
+</tr>
 </table>
 
 </div>
 
+<br/>
+
 ---
 
-## 📈 Coding Activity
+<!-- ══════════════════════════════════════════════════════════════════ -->
+<!--             SECTION VI · PLAYER CHARACTER STATUS HUD             -->
+<!-- ══════════════════════════════════════════════════════════════════ -->
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=6,11,20&height=2" width="100%"/>
+
+<h2 align="center">🔮 PLAYER CHARACTER STATUS HUD</h2>
+
+<br/>
 
 <div align="center">
 
-<!--START_SECTION:waka-->
-**💻 Weekly Development Breakdown**
-
-```text
-JavaScript   8 hrs 45 mins   ████████████░░░░░░░░░   45.2%
-React        5 hrs 12 mins   ████████░░░░░░░░░░░░░   26.8%
-CSS          2 hrs 30 mins   ███░░░░░░░░░░░░░░░░░░   12.9%
-PHP          1 hr 45 mins    ██░░░░░░░░░░░░░░░░░░░    9.1%
-Other        1 hr 10 mins    █░░░░░░░░░░░░░░░░░░░░    6.0%
-```
-<!--END_SECTION:waka-->
+<img src="assets/rpg-hud.svg" width="100%" alt="Player Character Status HUD"/>
 
 </div>
 
+<br/>
+
 ---
 
-## 🤝 Let's Connect!
+<!-- ══════════════════════════════════════════════════════════════════ -->
+<!--                 SECTION VII · CONNECT LOBBY                      -->
+<!-- ══════════════════════════════════════════════════════════════════ -->
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=6,11,20&height=2" width="100%"/>
+
+<h2 align="center">🌐 MULTIPLAYER LOBBY — CONNECT</h2>
 
 <div align="center">
 
-### 📫 Reach Out To Me
+<img src="assets/terminal-lobby.svg" width="100%" alt="Multiplayer Lobby Connection Sequence"/>
 
-<p>
-  <a href="mailto:contact@anik.dev">
-    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
-  </a>
-  <a href="https://linkedin.com/in/your-profile">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
-  </a>
-  <a href="https://twitter.com/your-profile">
-    <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter"/>
-  </a>
-  <a href="https://your-portfolio.com">
-    <img src="https://img.shields.io/badge/Portfolio-9D4EDD?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Portfolio"/>
-  </a>
-  <a href="https://discord.com/users/your-id">
-    <img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord"/>
-  </a>
-</p>
+<br/>
 
-### 💬 Open For
+<br/>
 
-✨ Collaboration on interesting projects
-🚀 Freelance opportunities
-💡 Tech discussions and knowledge sharing
-🎯 Open source contributions
+<a href="https://github.com/Anik-tB" target="_blank">
+  <img src="https://img.shields.io/badge/GitHub-Anik--tB-BD00FF?style=for-the-badge&logo=github&logoColor=white&labelColor=0D0D0D"/>
+</a>
+&nbsp;
+<a href="https://linkedin.com/in/mdabusayumanik" target="_blank">
+  <img src="https://img.shields.io/badge/LinkedIn-Abu_Sayum_Anik-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0D0D0D"/>
+</a>
+&nbsp;
+<a href="mailto:mdabusayumanik123@gmail.com">
+  <img src="https://img.shields.io/badge/Gmail-mdabusayumanik123-EA4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0D0D0D"/>
+</a>
+&nbsp;
+<a href="https://codeforces.com/profile/aDistraction-null" target="_blank">
+  <img src="https://img.shields.io/badge/Codeforces-aDistraction--null-1F8ACB?style=for-the-badge&logo=codeforces&logoColor=white&labelColor=0D0D0D"/>
+</a>
+
+<br/><br/>
 
 </div>
 
----
-
-## 💭 Dev Quote
-
-<div align="center">
-
-![Quote](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical&quote=Code%20is%20like%20humor.%20When%20you%20have%20to%20explain%20it%2C%20it's%20bad.&author=Cory%20House)
-
-</div>
-
----
-
-## 📚 Latest Blog Posts
-
-<!-- BLOG-POST-LIST:START -->
-- 🚀 Building Scalable React Applications
-- 💡 Clean Code Principles Every Developer Should Know
-- 🎨 Modern CSS Techniques for Beautiful UIs
-- ⚡ Optimizing Database Queries for Performance
-<!-- BLOG-POST-LIST:END -->
-
----
-
-<div align="center">
-
-### 🎵 Currently Vibing To
-
-[![Spotify](https://novatorem-anik.vercel.app/api/spotify)](https://open.spotify.com/user/your-spotify-id)
-
-</div>
-
----
-
-<div align="center">
-
-### ⚡ Fun Stats
-
-<img src="https://github-readme-stats.vercel.app/api/wakatime?username=Anik&theme=radical&hide_border=true&bg_color=0D1117&title_color=9D4EDD&text_color=FFFFFF&layout=compact" alt="WakaTime Stats"/>
-
-</div>
-
----
-
-<div align="center">
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,12,20&height=120&section=footer&text=Thanks%20for%20visiting!&fontSize=28&fontColor=fff&animation=twinkling&desc=Let's%20build%20something%20amazing%20together!&descSize=14&descAlignY=75" width="100%"/>
-
-### 💜 Show Some Love
-
-If you like my work, consider giving a ⭐ to my repositories!
-
-**"First, solve the problem. Then, write the code."** - John Johnson
-
-<sub>Made with 💜 by <a href="https://github.com/Anik-tB">Anik</a></sub>
-
-</div>
+<!-- FOOTER WAVE -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=footer&animation=fadeIn&desc=%22Executing%20clean%20architectures%2C%20mastering%20logic%20scales%2C%20and%20designing%20ultimate%20software%20worlds.%22&descAlignY=65&descSize=13&fontColor=BD00FF" width="100%"/>
