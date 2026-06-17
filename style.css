@@ -108,9 +108,9 @@ a {
   left: 0;
   z-index: 200;
   width: 0;
-  height: 3px;
-  background: linear-gradient(90deg, var(--primary), var(--accent), var(--warm));
-  box-shadow: 0 0 20px rgba(9, 105, 218, 0.2);
+  height: 3.5px;
+  background: linear-gradient(90deg, #8b5cf6, #7c3aed, #10b981);
+  box-shadow: 0 0 14px rgba(139, 92, 246, 0.7);
 }
 
 .site-backdrop {
