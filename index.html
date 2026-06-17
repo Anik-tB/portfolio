@@ -6,25 +6,28 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Md Abu Sayum Anik | Full Stack & Mobile Developer</title>
   <meta name="description"
-    content="Portfolio of Md Abu Sayum Anik — Software Engineer, Full Stack & Mobile Developer building reliable, scalable digital products.">
+    content="Portfolio of Md Abu Sayum Anik - Software Engineer, Full Stack and Mobile Developer building reliable, scalable digital products.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
-    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=Manrope:wght@500;600;700;800&display=swap"
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Manrope:wght@600;700;800&display=swap"
     rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+  <div class="scroll-progress" id="scroll-progress" aria-hidden="true"></div>
+  <div class="site-backdrop" aria-hidden="true"></div>
   <div class="cursor-glow" id="cursor-glow"></div>
+
   <header class="site-header">
     <nav class="navbar" aria-label="Primary">
       <a href="#home" class="brand" aria-label="Anik portfolio home">
         <span class="brand-mark">A</span>
         <span class="brand-copy">
           <strong>Anik</strong>
-          <small>Full Stack Developer</small>
+          <small>Software Engineer</small>
         </span>
       </a>
 
@@ -38,7 +41,13 @@
         <li><a href="#contact">Contact</a></li>
       </ul>
 
-      <a href="#contact" class="nav-cta">Get in Touch</a>
+      <div class="nav-actions">
+        <a href="cv.html?download=1" class="nav-cv" target="_blank" rel="noreferrer">
+          <i class="fa-solid fa-file-arrow-down" aria-hidden="true"></i>
+          CV
+        </a>
+        <a href="#contact" class="nav-cta">Hire Me</a>
+      </div>
 
       <button class="hamburger" type="button" aria-controls="primary-navigation" aria-expanded="false"
         aria-label="Open navigation menu">
@@ -52,62 +61,71 @@
   <main>
     <section id="home" class="hero">
       <div class="hero-copy reveal">
-        <p class="eyebrow">Open to software roles and internships</p>
-        <h1>Building <span class="gradient-text">reliable digital products</span> with thoughtful design and disciplined
-          engineering.</h1>
-        <p class="hero-description">
-          I'm Md Abu Sayum Anik, a full stack developer and Computer Science and Engineering student at United
-          International University. I build scalable web applications with a strong focus on clarity, performance, and
-          practical problem-solving.
+        <p class="eyebrow">Open to internships and software roles</p>
+        <h1>Md Abu Sayum <span>Anik</span></h1>
+        <p class="hero-lede">
+          Full stack and mobile developer building fast, maintainable products with clean architecture, thoughtful UI,
+          and practical engineering discipline.
         </p>
 
         <div class="hero-actions">
-          <a href="#projects" class="btn btn-primary">View Projects</a>
-          <a href="cv.html?download=1" class="btn btn-secondary" target="_blank" rel="noreferrer">Download CV</a>
-          <a href="#contact" class="btn btn-secondary">Get in Touch</a>
+          <a href="#projects" class="btn btn-primary">
+            <i class="fa-solid fa-layer-group" aria-hidden="true"></i>
+            View Work
+          </a>
+          <a href="mailto:mdabusayumanik123@gmail.com" class="btn btn-secondary">
+            <i class="fa-solid fa-paper-plane" aria-hidden="true"></i>
+            Email Me
+          </a>
+          <a href="cv.html?download=1" class="btn btn-ghost" target="_blank" rel="noreferrer">
+            <i class="fa-solid fa-download" aria-hidden="true"></i>
+            Download CV
+          </a>
         </div>
 
-        <div class="hero-proof">
+        <div class="hero-proof" aria-label="Portfolio highlights">
           <div class="proof-item reveal" data-delay="1">
-            <span data-count="3.87">3.87</span>/4.00
+            <span data-count="3.87">3.87</span>
             <p>Current CGPA at United International University</p>
           </div>
           <div class="proof-item reveal" data-delay="2">
             <span data-count="7">7+</span>
-            <p>Featured software projects</p>
+            <p>Featured software projects across web, AI, and mobile</p>
           </div>
           <div class="proof-item reveal" data-delay="3">
             <span data-count="2">2</span>
-            <p>Major project awards</p>
+            <p>Major awards for software and innovation projects</p>
           </div>
         </div>
       </div>
 
       <div class="hero-visual reveal">
-        <div class="profile-card">
-          <div class="profile-photo"></div>
-          <div class="profile-body">
-            <div class="profile-status">
-              <span class="status-dot"></span>
-              Based in Dhaka, Bangladesh
-            </div>
-            <h2>Md Abu Sayum Anik</h2>
-            <p>Full Stack Developer</p>
+        <div class="portrait-panel">
+          <div class="portrait-topline">
+            <span class="status-dot"></span>
+            <span>Dhaka, Bangladesh</span>
           </div>
-          <div class="profile-signals">
-            <div class="signal-card">
-              <strong>Frontend</strong>
-              <span>React, Next.js, HTML, CSS, JS</span>
-            </div>
-            <div class="signal-card">
-              <strong>Backend</strong>
-              <span>Node.js, PHP, Java, MySQL</span>
-            </div>
-            <div class="signal-card">
-              <strong>Mobile</strong>
-              <span>Kotlin, Android, Jetpack Compose</span>
-            </div>
+          <div class="portrait-frame">
+            <img src="profile.jpeg" alt="Md Abu Sayum Anik portrait">
           </div>
+          <div class="portrait-copy">
+            <p>Current focus</p>
+            <h2>Shipping product-grade AI, health, and safety platforms.</h2>
+          </div>
+          <dl class="profile-signals">
+            <div>
+              <dt>Frontend</dt>
+              <dd>React, Next.js, TypeScript</dd>
+            </div>
+            <div>
+              <dt>Backend</dt>
+              <dd>Node.js, Java, PHP, PostgreSQL</dd>
+            </div>
+            <div>
+              <dt>Mobile</dt>
+              <dd>Kotlin, Android, Expo</dd>
+            </div>
+          </dl>
         </div>
       </div>
     </section>
@@ -115,41 +133,41 @@
     <section id="about" class="section">
       <div class="section-heading reveal">
         <p class="eyebrow">About</p>
-        <h2>A disciplined approach to building software that is clear, scalable, and useful.</h2>
+        <h2>Focused on software that feels clear, dependable, and ready for real users.</h2>
         <p class="section-intro">
-          I combine engineering fundamentals with product thinking to deliver applications that are maintainable,
-          usable, and aligned with real-world needs.
+          I combine engineering fundamentals with product taste, so the work is not only functional, but understandable,
+          maintainable, and polished.
         </p>
       </div>
 
       <div class="about-grid">
         <article class="about-panel reveal" data-delay="1">
+          <h3>How I build</h3>
           <p>
-            I have a strong foundation in computer science and enjoy translating complex requirements into clean,
-            maintainable solutions. My work spans frontend development, backend systems, and database-driven
-            applications.
+            I like turning complex requirements into clean systems: readable interfaces, reliable data flow, and
+            product journeys that make sense from the first click.
           </p>
           <p>
-            I also pay close attention to product quality: information hierarchy, interaction design, performance, and
-            the level of polish that makes software feel credible and complete.
+            My work spans frontend development, backend systems, mobile applications, and database-driven platforms,
+            with special interest in AI-enabled tools and real-world workflow products.
           </p>
         </article>
 
-        <div class="insight-grid">
-          <article class="insight-card reveal" data-delay="1">
-            <h3>Scalable Application Development</h3>
-            <p>Designing full stack applications with solid structure, clear interfaces, and practical feature delivery.
-            </p>
+        <div class="operating-grid">
+          <article class="operating-item reveal" data-delay="1">
+            <span>01</span>
+            <h3>Product Clarity</h3>
+            <p>Information architecture, interaction polish, and interfaces that help users move quickly.</p>
           </article>
-          <article class="insight-card reveal" data-delay="2">
-            <h3>Analytical Problem Solving</h3>
-            <p>Applying competitive programming discipline and software design thinking to technical and product
-              challenges.</p>
+          <article class="operating-item reveal" data-delay="2">
+            <span>02</span>
+            <h3>Engineering Discipline</h3>
+            <p>Maintainable structure, stable data models, and practical delivery choices.</p>
           </article>
-          <article class="insight-card reveal" data-delay="3">
-            <h3>Strong Academic Performance</h3>
-            <p>Maintaining a high CGPA while earning multiple merit-based scholarships at United International
-              University.</p>
+          <article class="operating-item reveal" data-delay="3">
+            <span>03</span>
+            <h3>Problem Solving</h3>
+            <p>Competitive programming discipline applied to product and systems challenges.</p>
           </article>
         </div>
       </div>
@@ -160,8 +178,7 @@
         <p class="eyebrow">Education</p>
         <h2>An academic foundation built on consistency, discipline, and results.</h2>
         <p class="section-intro">
-          Each stage reflects sustained performance, strong fundamentals, and a steady commitment to academic
-          excellence.
+          Each stage reflects sustained performance, strong fundamentals, and steady commitment to technical growth.
         </p>
       </div>
 
@@ -215,7 +232,7 @@
     <section id="skills" class="section">
       <div class="section-heading reveal">
         <p class="eyebrow">Skills</p>
-        <h2>A practical skill set across frontend, backend, mobile, and problem solving.</h2>
+        <h2>A practical skill set across frontend, backend, mobile, data, and product delivery.</h2>
         <p class="section-intro">
           My work spans interface development, backend implementation, mobile app development, and the data systems
           that support reliable software.
@@ -224,9 +241,9 @@
 
       <div class="capability-grid">
         <article class="capability-card reveal" data-delay="1">
-          <div class="capability-icon"><i class="fab fa-react"></i></div>
+          <div class="capability-icon"><i class="fab fa-react" aria-hidden="true"></i></div>
           <h3>Frontend Development</h3>
-          <p>Building responsive, accessible interfaces with clear structure and user-focused interaction design.</p>
+          <p>Responsive, accessible interfaces with clear structure and user-focused interaction design.</p>
           <div class="chip-row">
             <span>React</span>
             <span>Next.js</span>
@@ -237,9 +254,9 @@
         </article>
 
         <article class="capability-card reveal" data-delay="2">
-          <div class="capability-icon"><i class="fas fa-server"></i></div>
+          <div class="capability-icon"><i class="fas fa-server" aria-hidden="true"></i></div>
           <h3>Backend Engineering</h3>
-          <p>Developing application logic and backend workflows that support robust, maintainable web products.</p>
+          <p>Application logic and backend workflows that support robust, maintainable web products.</p>
           <div class="chip-row">
             <span>Node.js</span>
             <span>PHP</span>
@@ -250,26 +267,25 @@
         </article>
 
         <article class="capability-card reveal" data-delay="3">
-          <div class="capability-icon"><i class="fas fa-mobile-alt"></i></div>
+          <div class="capability-icon"><i class="fas fa-mobile-alt" aria-hidden="true"></i></div>
           <h3>Mobile Development</h3>
-          <p>Building native Android applications with modern architectures, clean UI, and robust offline-first design.
-          </p>
+          <p>Native and cross-platform apps with clean UI, practical data handling, and smooth workflows.</p>
           <div class="chip-row">
             <span>Kotlin</span>
             <span>Android</span>
             <span>Jetpack Compose</span>
             <span>XML Layouts</span>
-            <span>Firebase</span>
+            <span>Expo</span>
           </div>
         </article>
 
         <article class="capability-card reveal" data-delay="4">
-          <div class="capability-icon"><i class="fas fa-database"></i></div>
+          <div class="capability-icon"><i class="fas fa-database" aria-hidden="true"></i></div>
           <h3>Data and Platform Services</h3>
-          <p>Working with databases and connected services that improve reliability, data flow, and operational clarity.
-          </p>
+          <p>Databases and connected services that improve reliability, data flow, and operational clarity.</p>
           <div class="chip-row">
             <span>MySQL</span>
+            <span>PostgreSQL</span>
             <span>Firebase</span>
             <span>Real-Time Data</span>
             <span>API Design</span>
@@ -277,10 +293,9 @@
         </article>
 
         <article class="capability-card reveal" data-delay="5">
-          <div class="capability-icon"><i class="fas fa-lightbulb"></i></div>
+          <div class="capability-icon"><i class="fas fa-lightbulb" aria-hidden="true"></i></div>
           <h3>Product and Delivery</h3>
-          <p>Combining engineering discipline with design judgment to ship software that feels polished and dependable.
-          </p>
+          <p>Engineering discipline with design judgment to ship software that feels credible and complete.</p>
           <div class="chip-row">
             <span>Architecture</span>
             <span>Usability</span>
@@ -310,8 +325,7 @@
             <h3>Beyond The Galaxy</h3>
             <p>
               Earned the champion title in the AOOP course project showcase for a JavaFX-based game recognized for
-              strong
-              architecture, product polish, and overall execution.
+              strong architecture, product polish, and overall execution.
             </p>
             <div class="chip-row">
               <span>Game Development</span>
@@ -345,21 +359,37 @@
     <section id="projects" class="section">
       <div class="section-heading reveal">
         <p class="eyebrow">Projects</p>
-        <h2>Selected projects that reflect product thinking and technical execution.</h2>
+        <h2>Selected projects that show product thinking and technical execution.</h2>
         <p class="section-intro">
           Each project addresses a concrete problem while demonstrating technical depth, product direction, and
           implementation quality.
         </p>
       </div>
 
+      <div class="project-toolbar reveal" aria-label="Project filters">
+        <button class="filter-btn active" type="button" data-filter="all">All</button>
+        <button class="filter-btn" type="button" data-filter="ai">AI</button>
+        <button class="filter-btn" type="button" data-filter="health">Health</button>
+        <button class="filter-btn" type="button" data-filter="mobile">Mobile</button>
+        <button class="filter-btn" type="button" data-filter="systems">Systems</button>
+        <button class="filter-btn" type="button" data-filter="game">Game</button>
+      </div>
+
       <div class="project-grid">
-        <article class="project-card featured-project reveal" data-delay="1">
+        <article class="project-card featured-project reveal" data-category="ai health systems" data-delay="1">
           <div class="project-copy">
             <span class="card-label">Featured Project</span>
             <h3>GenoNexus</h3>
             <p>
-              An enterprise-grade genomics and diagnostics ecosystem bridging clinical research, labs, and patients. Features a three-portal architecture, an AI-driven sequence alignment bioinformatics pipeline (Needleman-Wunsch & Random Forest severity classifier), a CPIC/FDA drug-gene mapping pharmacogenomics engine, a 3D WebGL chromosome map browser, and ML-based outbreak prediction.
+              An enterprise-grade genomics and diagnostics ecosystem bridging clinical research, labs, and patients with
+              a three-portal architecture, AI sequence alignment, pharmacogenomics mapping, 3D chromosome browsing, and
+              ML-based outbreak prediction.
             </p>
+            <div class="project-meta">
+              <span>3 portals</span>
+              <span>Bioinformatics pipeline</span>
+              <span>ML prediction</span>
+            </div>
             <div class="chip-row">
               <span>Next.js</span>
               <span>React</span>
@@ -371,7 +401,7 @@
             </div>
             <div class="project-links">
               <a href="https://github.com/Anik-tB/GENO_NEXUS" target="_blank" rel="noreferrer">
-                <i class="fab fa-github"></i>
+                <i class="fab fa-github" aria-hidden="true"></i>
                 Source Code
               </a>
             </div>
@@ -381,13 +411,19 @@
           </div>
         </article>
 
-        <article class="project-card featured-project reveal" data-delay="2">
+        <article class="project-card featured-project reveal" data-category="health mobile systems" data-delay="2">
           <div class="project-copy">
             <span class="card-label">Featured Project</span>
             <h3>MediVault</h3>
             <p>
-              A complete dispensary workflow system structured as a monorepo. It features an Expo-powered React Native mobile application for patients to browse medicines and upload prescriptions, a React/Vite admin dashboard for staff to manage catalog inventory and prescriptions, and an Express/PostgreSQL backend database API.
+              A complete dispensary workflow system with an Expo-powered patient app, React/Vite staff dashboard,
+              prescription upload flow, inventory management, and an Express/PostgreSQL backend API.
             </p>
+            <div class="project-meta">
+              <span>Mobile app</span>
+              <span>Admin dashboard</span>
+              <span>Backend API</span>
+            </div>
             <div class="chip-row">
               <span>React Native</span>
               <span>Expo</span>
@@ -398,7 +434,7 @@
             </div>
             <div class="project-links">
               <a href="https://github.com/Anik-tB/MediVault" target="_blank" rel="noreferrer">
-                <i class="fab fa-github"></i>
+                <i class="fab fa-github" aria-hidden="true"></i>
                 Source Code
               </a>
             </div>
@@ -408,13 +444,19 @@
           </div>
         </article>
 
-        <article class="project-card featured-project reveal" data-delay="3">
+        <article class="project-card featured-project reveal" data-category="ai systems" data-delay="3">
           <div class="project-copy">
             <span class="card-label">Featured Project</span>
             <h3>PersonalGPT IDE</h3>
             <p>
-              A self-hosted, browser-based AI coding workspace combining Monaco Editor and a Cursor-like user interface. Includes a server-side LLM agent execution loop capable of reading/writing files, inspecting folders, executing shell commands in the integrated terminal, and proposing code changes through an interactive diff review interface.
+              A self-hosted, browser-based AI coding workspace combining Monaco Editor, a Cursor-like interface,
+              terminal execution, workspace inspection, file editing, and interactive diff review.
             </p>
+            <div class="project-meta">
+              <span>LLM agent loop</span>
+              <span>File operations</span>
+              <span>Diff review</span>
+            </div>
             <div class="chip-row">
               <span>Next.js</span>
               <span>React</span>
@@ -424,7 +466,7 @@
             </div>
             <div class="project-links">
               <a href="https://github.com/Anik-tB/PersonalGPT-IDE" target="_blank" rel="noreferrer">
-                <i class="fab fa-github"></i>
+                <i class="fab fa-github" aria-hidden="true"></i>
                 Source Code
               </a>
             </div>
@@ -434,24 +476,30 @@
           </div>
         </article>
 
-        <article class="project-card featured-project reveal" data-delay="4">
+        <article class="project-card featured-project reveal" data-category="ai systems" data-delay="4">
           <div class="project-copy">
             <span class="card-label">Featured Project</span>
             <h3>Anik AI</h3>
             <p>
-              A highly flexible and extensible self-hosted enterprise AI Agent platform built on Spring Boot 4 and Spring AI. It provides orchestration for composable multi-agent workflows, long-term memory persistence, vector RAG knowledge bases (Milvus and Elasticsearch), resource/document uploads, and a modern admin dashboard (Vue 3/SoybeanAdmin) with OpenAPI support.
+              A self-hosted enterprise AI agent platform built on Spring Boot and Spring AI with composable workflows,
+              long-term memory, vector RAG knowledge bases, resource uploads, and a Vue admin dashboard.
             </p>
+            <div class="project-meta">
+              <span>Agent workflows</span>
+              <span>Vector RAG</span>
+              <span>Admin console</span>
+            </div>
             <div class="chip-row">
-              <span>Spring Boot 4</span>
+              <span>Spring Boot</span>
               <span>Spring AI</span>
-              <span>Java 25</span>
+              <span>Java</span>
               <span>Vue 3</span>
               <span>MyBatis-Plus</span>
               <span>H2 Database</span>
             </div>
             <div class="project-links">
               <a href="https://github.com/Anik-tB/anik-ai" target="_blank" rel="noreferrer">
-                <i class="fab fa-github"></i>
+                <i class="fab fa-github" aria-hidden="true"></i>
                 Source Code
               </a>
             </div>
@@ -461,7 +509,7 @@
           </div>
         </article>
 
-        <article class="project-card featured-project reveal" data-delay="5">
+        <article class="project-card featured-project reveal" data-category="systems" data-delay="5">
           <div class="project-copy">
             <span class="card-label">Featured Project</span>
             <h3>Safe Space</h3>
@@ -469,6 +517,11 @@
               A safety-focused platform designed to support women and communities through incident reporting, emergency
               workflows, real-time alerts, and community support.
             </p>
+            <div class="project-meta">
+              <span>Incident reports</span>
+              <span>Emergency flow</span>
+              <span>Alerts</span>
+            </div>
             <div class="chip-row">
               <span>PHP</span>
               <span>MySQL</span>
@@ -477,21 +530,22 @@
             </div>
             <div class="project-links">
               <a href="https://github.com/Anik-tB/space-login" target="_blank" rel="noreferrer">
-                <i class="fab fa-github"></i>
+                <i class="fab fa-github" aria-hidden="true"></i>
                 Source Code
               </a>
               <a href="https://youtu.be/4q2guKDmXN0" target="_blank" rel="noreferrer">
-                <i class="fab fa-youtube"></i>
+                <i class="fab fa-youtube" aria-hidden="true"></i>
                 Watch Demo
               </a>
             </div>
           </div>
           <div class="project-media">
-            <img src="safespace-dashboard.png" alt="Safe Space dashboard showing reports, alerts, and community safety features">
+            <img src="safespace-dashboard.png"
+              alt="Safe Space dashboard showing reports, alerts, and community safety features">
           </div>
         </article>
 
-        <article class="project-card reveal" data-delay="6">
+        <article class="project-card reveal" data-category="game" data-delay="6">
           <div class="project-media">
             <img src="beyondthegalaxy.png" alt="Beyond The Galaxy project">
           </div>
@@ -509,20 +563,21 @@
             </div>
             <div class="project-links">
               <a href="https://github.com/Anik-tB/FinalBTG" target="_blank" rel="noreferrer">
-                <i class="fab fa-github"></i>
+                <i class="fab fa-github" aria-hidden="true"></i>
                 Source Code
               </a>
               <a href="https://youtu.be/hDRxOb0d7O4" target="_blank" rel="noreferrer">
-                <i class="fab fa-youtube"></i>
+                <i class="fab fa-youtube" aria-hidden="true"></i>
                 Watch Demo
               </a>
             </div>
           </div>
         </article>
 
-        <article class="project-card reveal" data-delay="7">
+        <article class="project-card reveal" data-category="ai systems" data-delay="7">
           <div class="project-media">
-            <img src="iiswps-dashboard.png" alt="IISWPS Safety Command Center dashboard with real-time monitoring and analytics">
+            <img src="iiswps-dashboard.png"
+              alt="IISWPS Safety Command Center dashboard with real-time monitoring and analytics">
           </div>
           <div class="project-copy">
             <span class="card-label">Systems Project</span>
@@ -538,11 +593,11 @@
             </div>
             <div class="project-links">
               <a href="https://github.com/Anik-tB/IISWPS" target="_blank" rel="noreferrer">
-                <i class="fab fa-github"></i>
+                <i class="fab fa-github" aria-hidden="true"></i>
                 Source Code
               </a>
               <a href="https://youtu.be/avzAtd8szAU" target="_blank" rel="noreferrer">
-                <i class="fab fa-youtube"></i>
+                <i class="fab fa-youtube" aria-hidden="true"></i>
                 Watch Demo
               </a>
             </div>
@@ -557,28 +612,34 @@
           <p class="eyebrow">Contact</p>
           <h2>Open to internships, software teams, and meaningful collaboration.</h2>
           <p>
-            If you're building a serious product and need a developer who values clarity, execution, and quality, I'd
-            be glad to connect.
+            If you are building a serious product and need a developer who values clarity, execution, and quality, I
+            would be glad to connect.
           </p>
         </div>
 
         <div class="contact-actions">
-          <a href="mailto:mdabusayumanik123@gmail.com" class="btn btn-primary">Send Email</a>
-          <a href="cv.html?download=1" class="btn btn-secondary" target="_blank" rel="noreferrer">Download CV</a>
+          <a href="mailto:mdabusayumanik123@gmail.com" class="btn btn-primary">
+            <i class="fa-solid fa-envelope" aria-hidden="true"></i>
+            Send Email
+          </a>
+          <a href="cv.html?download=1" class="btn btn-secondary" target="_blank" rel="noreferrer">
+            <i class="fa-solid fa-file-arrow-down" aria-hidden="true"></i>
+            Download CV
+          </a>
           <div class="contact-links">
             <a href="https://www.linkedin.com/in/md-abu-sayum-anik-2a431b295?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
               target="_blank" rel="noreferrer" aria-label="LinkedIn">
-              <i class="fab fa-linkedin-in"></i>
+              <i class="fab fa-linkedin-in" aria-hidden="true"></i>
             </a>
             <a href="https://github.com/Anik-tB/" target="_blank" rel="noreferrer" aria-label="GitHub">
-              <i class="fab fa-github"></i>
+              <i class="fab fa-github" aria-hidden="true"></i>
             </a>
             <a href="https://codeforces.com/profile/aDistraction-null" target="_blank" rel="noreferrer"
               aria-label="Codeforces">
-              <i class="fas fa-code"></i>
+              <i class="fas fa-code" aria-hidden="true"></i>
             </a>
             <a href="https://www.facebook.com/share/1CD6nUzrwJ/" target="_blank" rel="noreferrer" aria-label="Facebook">
-              <i class="fab fa-facebook-f"></i>
+              <i class="fab fa-facebook-f" aria-hidden="true"></i>
             </a>
           </div>
         </div>
