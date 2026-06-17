@@ -79,6 +79,9 @@
 | Project | Description | Stack |
 | :--- | :--- | :--- |
 | **[GenoNexus](https://github.com/Anik-tB/GENO_NEXUS)** | Enterprise-grade genomics and diagnostics ecosystem with a three-portal architecture, AI alignment pipeline, pharmacogenomics prescribing, and 3D WebGL chromosome map. | Next.js, React, TypeScript, Python, FastAPI, PostgreSQL, Firebase |
+| **[MediVault](https://github.com/Anik-tB/MediVault)** | Local dispensary workflow monorepo featuring an Expo mobile app for patients, a React Vite admin dashboard for staff, and an Express PostgreSQL backend. | React Native, Expo, Express, React, PostgreSQL, Firebase |
+| **[PersonalGPT IDE](https://github.com/Anik-tB/PersonalGPT-IDE)** | Self-hosted browser-based AI coding workspace combining Monaco Editor, terminal execution, and an LLM agent tool loop. | Next.js, React, Monaco Editor, TypeScript, Node.js |
+| **[Anik AI](https://github.com/Anik-tB/anik-ai)** | Enterprise AI Agent platform for orchestration of composable agent workflows, vector RAG databases, and long-term memory. | Spring Boot 4, Spring AI, Java 25, Vue 3, H2 Database |
 | **[Safe Space](https://github.com/Anik-tB/space-login)** | A web-based safety platform empowering communities with incident reporting and real-time alerts. | PHP, MySQL, JS |
 | **[Beyond The Galaxy](https://github.com/Anik-tB/FinalBTG)** | A JavaFX space-themed RPG with multiplayer PvP, marketplace, and character progression. | Java, JavaFX |
 | **[IISWPS](https://github.com/Anik-tB/IISWPS)** | AI-driven system for monitoring and predicting industrial safety workflows in real-time. | AI/ML, Full-Stack |
