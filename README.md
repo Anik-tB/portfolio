@@ -101,6 +101,11 @@
         <b>1st Runner Up - Brainwave</b><br>
         CSE Project Show (Spring 25)
       </td>
+      <td align="center">
+        <img src="achievement-genonexus.jpg" width="300px" alt="GenoNexus"><br>
+        <b>1st Runner Up - GenoNexus</b><br>
+        CSE Project Show (Spring 26)
+      </td>
     </tr>
   </table>
 </div>
