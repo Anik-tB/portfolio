@@ -607,6 +607,8 @@ section {
     linear-gradient(180deg, rgba(255, 255, 255, 0.96), rgba(255, 255, 255, 0.78)),
     linear-gradient(135deg, rgba(9, 105, 218, 0.08), rgba(15, 138, 95, 0.08));
   box-shadow: 0 24px 70px rgba(21, 21, 19, 0.15);
+  border-radius: var(--radius);
+  border: 1px solid rgba(21, 21, 19, 0.12);
 }
 
 .portrait-panel::after {
@@ -627,6 +629,8 @@ section {
   right: 0;
   height: 8px;
   background: linear-gradient(90deg, var(--primary), var(--accent), var(--warm));
+  border-top-left-radius: calc(var(--radius) - 1px);
+  border-top-right-radius: calc(var(--radius) - 1px);
 }
 
 .portrait-header {
@@ -691,6 +695,7 @@ section {
   height: 100%;
   object-fit: cover;
   object-position: center top;
+  border-radius: calc(var(--radius) - 1px);
 }
 
 .portrait-badge {
