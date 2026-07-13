@@ -44,7 +44,7 @@
     <td>
       <b>United International University</b><br>
       <i>B.Sc. in Computer Science & Engineering</i> | sep 2023 - ongoing<br>
-     current CGPA: 3.87/4.00 | 🏆 Multiple Merit Scholarships
+     current CGPA: 3.89/4.00 | 🏆 Multiple Merit Scholarships
     </td>
   </tr>
   <tr>
