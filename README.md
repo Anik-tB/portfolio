@@ -112,8 +112,8 @@
 ### 📊 GitHub Stats
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Anik-tB&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=9D4EDD&icon_color=9D4EDD&text_color=FFFFFF" height="150" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Anik-tB&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&title_color=9D4EDD&text_color=FFFFFF" height="150" />
+  <img src="https://github-stats-extended.vercel.app/api?username=Anik-tB&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=9D4EDD&icon_color=9D4EDD&text_color=FFFFFF" height="150" />
+  <img src="https://github-stats-extended.vercel.app/api/top-langs?username=Anik-tB&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&title_color=9D4EDD&text_color=FFFFFF" height="150" />
 </div>
 <br>
 <div align="center">
