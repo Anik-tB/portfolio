@@ -1867,7 +1867,7 @@ section {
   }
 
   .hero h1 {
-    font-size: 42px;
+    font-size: clamp(26px, 8.2vw, 42px);
   }
 
   .hero-lede {
@@ -1969,10 +1969,6 @@ section {
 }
 
 @media (max-width: 420px) {
-  .hero h1 {
-    font-size: 34px;
-  }
-
   .hero-specialties {
     grid-template-columns: 1fr;
   }
