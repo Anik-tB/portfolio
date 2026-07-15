@@ -10,7 +10,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
-    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Manrope:wght@600;700;800&display=swap"
+    href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap"
     rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <link rel="stylesheet" href="style.css">
@@ -117,6 +117,11 @@
       <div class="hero-visual reveal">
         <div class="portrait-panel">
           <div class="portrait-header">
+            <div class="window-controls" aria-hidden="true">
+              <span class="dot red"></span>
+              <span class="dot yellow"></span>
+              <span class="dot green"></span>
+            </div>
             <div class="portrait-topline">
               <span class="status-dot"></span>
               <span>Available for software teams</span>
@@ -175,32 +180,37 @@
 
       <div class="about-grid">
         <article class="about-panel reveal" data-delay="1">
+          <span class="panel-kicker">01 / Methodology</span>
           <h3>How I build</h3>
           <p>
-            I like turning complex requirements into clean systems: readable interfaces, reliable data flow, and
-            product journeys that make sense from the first click.
+            I like turning complex requirements into <strong class="text-highlight">clean systems</strong>: <strong class="text-highlight">readable interfaces</strong>, <strong class="text-highlight">reliable data flow</strong>, and product journeys that make sense from the first click.
           </p>
           <p>
-            My work spans frontend development, backend systems, mobile applications, and database-driven platforms,
-            with special interest in AI-enabled tools and real-world workflow products.
+            My work spans <strong class="text-highlight">frontend development</strong>, <strong class="text-highlight">backend systems</strong>, <strong class="text-highlight">mobile applications</strong>, and <strong class="text-highlight">database-driven platforms</strong>, with special interest in <strong class="text-highlight">AI-enabled tools</strong> and <strong class="text-highlight">real-world workflow products</strong>.
           </p>
         </article>
 
         <div class="operating-grid">
           <article class="operating-item reveal" data-delay="1">
-            <span>01</span>
-            <h3>Product Clarity</h3>
-            <p>Information architecture, interaction polish, and interfaces that help users move quickly.</p>
+            <span class="operating-num">01</span>
+            <div class="operating-content">
+              <h3>Product Clarity</h3>
+              <p>Information architecture, interaction polish, and interfaces that help users move quickly.</p>
+            </div>
           </article>
           <article class="operating-item reveal" data-delay="2">
-            <span>02</span>
-            <h3>Engineering Discipline</h3>
-            <p>Maintainable structure, stable data models, and practical delivery choices.</p>
+            <span class="operating-num">02</span>
+            <div class="operating-content">
+              <h3>Engineering Discipline</h3>
+              <p>Maintainable structure, stable data models, and practical delivery choices.</p>
+            </div>
           </article>
           <article class="operating-item reveal" data-delay="3">
-            <span>03</span>
-            <h3>Problem Solving</h3>
-            <p>Competitive programming discipline applied to product and systems challenges.</p>
+            <span class="operating-num">03</span>
+            <div class="operating-content">
+              <h3>Problem Solving</h3>
+              <p>Competitive programming discipline applied to product and systems challenges.</p>
+            </div>
           </article>
         </div>
       </div>
@@ -215,50 +225,95 @@
         </p>
       </div>
 
-      <div class="education-grid">
-        <a href="https://www.uiu.ac.bd/" target="_blank" rel="noreferrer" class="education-card reveal" data-delay="1">
-          <div class="education-top">
-            <div class="edu-icon">
-              <img src="uiu-logo.png" alt="UIU logo">
-            </div>
+      <div class="education-timeline">
+        
+        <!-- Timeline Item 1 -->
+        <div class="timeline-item reveal" data-delay="1">
+          <div class="timeline-meta">
             <span class="edu-period">2023 - Present</span>
           </div>
-          <h3>United International University</h3>
-          <h4>Bachelor of Science in Computer Science and Engineering</h4>
-          <p class="edu-meta">Dhaka, Bangladesh</p>
-          <p class="edu-grade">Current CGPA: 3.89 out of 4.00</p>
-          <p class="edu-note">Awarded multiple merit-based scholarships, including 100%, 50%, and 25% tuition waivers.
-          </p>
-        </a>
+          <div class="timeline-indicator" aria-hidden="true">
+            <div class="timeline-dot"></div>
+            <div class="timeline-line"></div>
+          </div>
+          <div class="education-card-wrapper">
+            <a href="https://www.uiu.ac.bd/" target="_blank" rel="noreferrer" class="education-card">
+              <div class="education-header">
+                <div class="edu-icon">
+                  <img src="uiu-logo.png" alt="UIU logo">
+                </div>
+                <div class="edu-title-group">
+                  <h3>United International University</h3>
+                  <h4>Bachelor of Science in Computer Science and Engineering</h4>
+                  <p class="edu-meta">Dhaka, Bangladesh</p>
+                </div>
+              </div>
+              <div class="education-body">
+                <p class="edu-grade">Current CGPA: <strong>3.89</strong> out of 4.00</p>
+                <p class="edu-note">Awarded multiple merit-based scholarships, including 100%, 50%, and 25% tuition waivers.</p>
+              </div>
+            </a>
+          </div>
+        </div>
 
-        <a href="https://ccpc.edu.bd/" target="_blank" rel="noreferrer" class="education-card reveal" data-delay="2">
-          <div class="education-top">
-            <div class="edu-icon">
-              <img src="ccpc-logo.png" alt="CCPC logo">
-            </div>
+        <!-- Timeline Item 2 -->
+        <div class="timeline-item reveal" data-delay="2">
+          <div class="timeline-meta">
             <span class="edu-period">Higher Secondary</span>
           </div>
-          <h3>Chittagong Cantonment Public College</h3>
-          <h4>Higher Secondary Certificate in Science</h4>
-          <p class="edu-meta">Chittagong, Bangladesh</p>
-          <p class="edu-grade">Grade: 5.00 out of 5.00</p>
-          <p class="edu-note">Developed a strong foundation in mathematics and science before moving into software and
-            engineering.</p>
-        </a>
+          <div class="timeline-indicator" aria-hidden="true">
+            <div class="timeline-dot"></div>
+            <div class="timeline-line"></div>
+          </div>
+          <div class="education-card-wrapper">
+            <a href="https://ccpc.edu.bd/" target="_blank" rel="noreferrer" class="education-card">
+              <div class="education-header">
+                <div class="edu-icon">
+                  <img src="ccpc-logo.png" alt="CCPC logo">
+                </div>
+                <div class="edu-title-group">
+                  <h3>Chittagong Cantonment Public College</h3>
+                  <h4>Higher Secondary Certificate in Science</h4>
+                  <p class="edu-meta">Chittagong, Bangladesh</p>
+                </div>
+              </div>
+              <div class="education-body">
+                <p class="edu-grade">Grade: <strong>5.00</strong> out of 5.00</p>
+                <p class="edu-note">Developed a strong foundation in mathematics and science before moving into software and engineering.</p>
+              </div>
+            </a>
+          </div>
+        </div>
 
-        <a href="https://acps.edu.bd/" target="_blank" rel="noreferrer" class="education-card reveal" data-delay="3">
-          <div class="education-top">
-            <div class="edu-icon">
-              <img src="acps-logo.png" alt="ACPS logo">
-            </div>
+        <!-- Timeline Item 3 -->
+        <div class="timeline-item reveal" data-delay="3">
+          <div class="timeline-meta">
             <span class="edu-period">Secondary</span>
           </div>
-          <h3>Adamjee Cantonment Public School</h3>
-          <h4>Secondary School Certificate in Science</h4>
-          <p class="edu-meta">Dhaka Cantonment, Dhaka, Bangladesh</p>
-          <p class="edu-grade">Grade: 5.00 out of 5.00</p>
-          <p class="edu-note">Built the academic discipline that continues to support my technical growth.</p>
-        </a>
+          <div class="timeline-indicator" aria-hidden="true">
+            <div class="timeline-dot"></div>
+            <div class="timeline-line"></div>
+          </div>
+          <div class="education-card-wrapper">
+            <a href="https://acps.edu.bd/" target="_blank" rel="noreferrer" class="education-card">
+              <div class="education-header">
+                <div class="edu-icon">
+                  <img src="acps-logo.png" alt="ACPS logo">
+                </div>
+                <div class="edu-title-group">
+                  <h3>Adamjee Cantonment Public School</h3>
+                  <h4>Secondary School Certificate in Science</h4>
+                  <p class="edu-meta">Dhaka Cantonment, Dhaka, Bangladesh</p>
+                </div>
+              </div>
+              <div class="education-body">
+                <p class="edu-grade">Grade: <strong>5.00</strong> out of 5.00</p>
+                <p class="edu-note">Built the academic discipline that continues to support my technical growth.</p>
+              </div>
+            </a>
+          </div>
+        </div>
+
       </div>
     </section>
 
@@ -351,10 +406,10 @@
       <div class="achievement-grid">
         <article class="achievement-card reveal" data-delay="1">
           <div class="achievement-media">
+            <span class="card-label">Champion</span>
             <img src="achievement-btg.jpg" alt="Beyond The Galaxy award">
           </div>
           <div class="achievement-content">
-            <span class="card-label">Champion</span>
             <h3>Beyond The Galaxy</h3>
             <p>
               Earned the champion title in the AOOP course project showcase for a JavaFX-based game recognized for
@@ -370,10 +425,10 @@
 
         <article class="achievement-card reveal" data-delay="2">
           <div class="achievement-media">
+            <span class="card-label">1st Runner Up</span>
             <img src="achievement-brainwave.jpg" alt="Brainwave Microcontroller award">
           </div>
           <div class="achievement-content">
-            <span class="card-label">1st Runner Up</span>
             <h3>Brainwave Microcontroller Project</h3>
             <p>
               Received 1st Runner Up for an innovative electronics project that used brainwave-based interaction to
@@ -389,10 +444,10 @@
 
         <article class="achievement-card reveal" data-delay="3">
           <div class="achievement-media">
+            <span class="card-label">1st Runner Up</span>
             <img src="achievement-genonexus.jpg" alt="GenoNexus project award">
           </div>
           <div class="achievement-content">
-            <span class="card-label">1st Runner Up</span>
             <h3>GenoNexus</h3>
             <p>
               Awarded 1st Runner Up in the CSE project showcase for a comprehensive genomics and diagnostics platform featuring a secure three-portal ecosystem, AI analysis pipeline, and 3D WebGL chromosome map.
@@ -429,7 +484,7 @@
       <div class="project-grid">
         <article class="project-card featured-project reveal" data-category="ai health systems" data-delay="1">
           <div class="project-copy">
-            <span class="card-label">Featured Project</span>
+            <span class="project-tag">Featured Project</span>
             <h3>GenoNexus</h3>
             <p>
               An enterprise-grade genomics and diagnostics ecosystem bridging clinical research, labs, and patients with
@@ -464,7 +519,7 @@
 
         <article class="project-card featured-project reveal" data-category="health mobile systems" data-delay="2">
           <div class="project-copy">
-            <span class="card-label">Featured Project</span>
+            <span class="project-tag">Featured Project</span>
             <h3>MediVault</h3>
             <p>
               A complete dispensary workflow system with an Expo-powered patient app, React/Vite staff dashboard,
@@ -497,7 +552,7 @@
 
         <article class="project-card featured-project reveal" data-category="ai systems" data-delay="3">
           <div class="project-copy">
-            <span class="card-label">Featured Project</span>
+            <span class="project-tag">Featured Project</span>
             <h3>PersonalGPT IDE</h3>
             <p>
               A self-hosted, browser-based AI coding workspace combining Monaco Editor, a Cursor-like interface,
@@ -529,7 +584,7 @@
 
         <article class="project-card featured-project reveal" data-category="ai systems" data-delay="4">
           <div class="project-copy">
-            <span class="card-label">Featured Project</span>
+            <span class="project-tag">Featured Project</span>
             <h3>Anik AI</h3>
             <p>
               A self-hosted enterprise AI agent platform built on Spring Boot and Spring AI with composable workflows,
@@ -562,7 +617,7 @@
 
         <article class="project-card featured-project reveal" data-category="systems" data-delay="5">
           <div class="project-copy">
-            <span class="card-label">Featured Project</span>
+            <span class="project-tag">Featured Project</span>
             <h3>Safe Space</h3>
             <p>
               A safety-focused platform designed to support women and communities through incident reporting, emergency
@@ -601,7 +656,7 @@
             <img src="beyondthegalaxy.png" alt="Beyond The Galaxy project">
           </div>
           <div class="project-copy">
-            <span class="card-label">Game Project</span>
+            <span class="project-tag">Game Project</span>
             <h3>Beyond The Galaxy</h3>
             <p>
               A JavaFX-based role-playing game featuring multiple modes, PvP combat, progression systems, and an
@@ -631,7 +686,7 @@
               alt="IISWPS Safety Command Center dashboard with real-time monitoring and analytics">
           </div>
           <div class="project-copy">
-            <span class="card-label">Systems Project</span>
+            <span class="project-tag">Systems Project</span>
             <h3>Intelligent Industrial Safety & Workflow Prediction System</h3>
             <p>
               A full stack monitoring platform that combines real-time data, workflow analysis, and predictive
@@ -663,8 +718,7 @@
           <p class="eyebrow">Contact</p>
           <h2>Open to internships, software teams, and meaningful collaboration.</h2>
           <p>
-            If you are building a serious product and need a developer who values clarity, execution, and quality, I
-            would be glad to connect.
+            If you are building a <strong class="text-highlight">serious product</strong> and need a developer who values <strong class="text-highlight">clarity</strong>, <strong class="text-highlight">execution</strong>, and <strong class="text-highlight">quality</strong>, I would be glad to connect.
           </p>
         </div>
 
