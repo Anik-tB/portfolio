@@ -279,6 +279,22 @@ window.addEventListener("hashchange", () => {
   window.setTimeout(showVisibleRevealItems, 80);
 });
 
+const setupCardSpotlight = () => {
+  if (prefersReducedMotion) return;
+  const cards = Array.from(document.querySelectorAll(
+    ".portrait-panel, .about-panel, .operating-item, .education-card, .capability-card, .achievement-card, .project-card, .contact-card"
+  ));
+  cards.forEach((card) => {
+    card.addEventListener("mousemove", (e) => {
+      const rect = card.getBoundingClientRect();
+      const x = e.clientX - rect.left;
+      const y = e.clientY - rect.top;
+      card.style.setProperty("--mouse-x", `${x}px`);
+      card.style.setProperty("--mouse-y", `${y}px`);
+    });
+  });
+};
+
 window.addEventListener("load", () => {
   setNavbarState();
   setScrollProgress();
@@ -290,6 +306,7 @@ setupRevealObserver();
 setupSectionObserver();
 setupCounters();
 setupProjectFilters();
+setupCardSpotlight();
 setNavbarState();
 setScrollProgress();
 initializeActiveSection();
