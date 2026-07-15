@@ -575,7 +575,7 @@ section {
 .proof-item {
   padding: 20px;
   border: 0;
-  border-right: 1px solid rgba(15, 23, 42, 0.06);
+  border-right: 1px solid rgba(255, 255, 255, 0.35);
   background: transparent;
   box-shadow: none;
   display: flex;
@@ -1721,7 +1721,7 @@ section {
 
   .nav-links a {
     justify-content: flex-start;
-    min-height: 40px;
+    min-height: 44px;
     padding-inline: 16px;
     border-radius: 8px;
   }
@@ -1788,7 +1788,7 @@ section {
 
   .proof-item {
     border-right: 0;
-    border-bottom: 1px solid rgba(15, 23, 42, 0.06);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.35);
   }
 
   .proof-item:last-child {
@@ -1940,6 +1940,8 @@ section {
 
   .filter-btn {
     flex: 0 0 auto;
+    min-height: 40px;
+    padding: 0 18px;
   }
 
   .project-copy h3 {
