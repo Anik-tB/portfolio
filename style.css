@@ -1410,6 +1410,10 @@ section {
   background: var(--bg-card);
 }
 
+.project-card.is-hidden {
+  display: none !important;
+}
+
 .project-copy {
   display: flex;
   flex-direction: column;
