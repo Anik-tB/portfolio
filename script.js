@@ -27,8 +27,9 @@ const setNavbarState = () => {
 const setScrollProgress = () => {
   if (!scrollProgress) return;
   const scrollable = document.documentElement.scrollHeight - window.innerHeight;
-  const progress = scrollable > 0 ? (window.scrollY / scrollable) * 100 : 0;
-  scrollProgress.style.width = `${Math.min(100, Math.max(0, progress))}%`;
+  const progress = scrollable > 0 ? window.scrollY / scrollable : 0;
+  const clamped = Math.min(1, Math.max(0, progress));
+  scrollProgress.style.transform = `scaleX(${clamped})`;
 };
 
 const setMenuState = (isOpen) => {
@@ -158,7 +159,7 @@ const setupSectionObserver = () => {
   observedSections.forEach((section) => sectionObserver.observe(section));
 };
 
-const animateCounter = (element, target, duration = 1200) => {
+const animateCounter = (element, target, duration = 1400) => {
   const isFloat = String(target).includes(".");
   const originalText = element.textContent;
   const startTime = performance.now();
@@ -166,7 +167,7 @@ const animateCounter = (element, target, duration = 1200) => {
   const step = (currentTime) => {
     const elapsed = currentTime - startTime;
     const progress = Math.min(elapsed / duration, 1);
-    const eased = 1 - Math.pow(1 - progress, 3);
+    const eased = 1 - Math.pow(1 - progress, 4);
     const current = target * eased;
 
     element.textContent = isFloat ? current.toFixed(2) : Math.round(current);
@@ -264,12 +265,20 @@ internalAnchors.forEach((anchor) => {
   });
 });
 
+let scrollTicking = false;
+
 window.addEventListener(
   "scroll",
   () => {
-    setNavbarState();
-    setScrollProgress();
-    syncActiveSection();
+    if (!scrollTicking) {
+      scrollTicking = true;
+      requestAnimationFrame(() => {
+        setNavbarState();
+        setScrollProgress();
+        syncActiveSection();
+        scrollTicking = false;
+      });
+    }
   },
   { passive: true }
 );
@@ -285,12 +294,20 @@ const setupCardSpotlight = () => {
     ".portrait-panel, .about-panel, .operating-item, .education-card, .capability-card, .achievement-card, .project-card, .contact-card"
   ));
   cards.forEach((card) => {
+    let rafId = null;
     card.addEventListener("mousemove", (e) => {
-      const rect = card.getBoundingClientRect();
-      const x = e.clientX - rect.left;
-      const y = e.clientY - rect.top;
-      card.style.setProperty("--mouse-x", `${x}px`);
-      card.style.setProperty("--mouse-y", `${y}px`);
+      if (rafId) cancelAnimationFrame(rafId);
+      rafId = requestAnimationFrame(() => {
+        const rect = card.getBoundingClientRect();
+        const x = e.clientX - rect.left;
+        const y = e.clientY - rect.top;
+        card.style.setProperty("--mouse-x", `${x}px`);
+        card.style.setProperty("--mouse-y", `${y}px`);
+      });
+    }, { passive: true });
+
+    card.addEventListener("mouseleave", () => {
+      if (rafId) cancelAnimationFrame(rafId);
     });
   });
 };
