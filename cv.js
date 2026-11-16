@@ -5,8 +5,22 @@
 // ── Print / Download ──
 const printButton = document.querySelector("#print-cv");
 const params = new URLSearchParams(window.location.search);
+const revealSections = document.querySelectorAll(".cv-reveal");
+
+const prepareForPrint = () => {
+  if (revealSections.length) {
+    revealSections.forEach((el) => {
+      el.style.animation = "none";
+      el.style.opacity = "1";
+      el.style.transform = "none";
+    });
+  }
+};
+
+window.addEventListener("beforeprint", prepareForPrint);
 
 const triggerPrint = () => {
+  prepareForPrint();
   window.print();
 };
 
@@ -21,8 +35,6 @@ if (params.get("download") === "1") {
 }
 
 // ── Scroll Reveal (IntersectionObserver) ──
-const revealSections = document.querySelectorAll(".cv-reveal");
-
 if (revealSections.length && "IntersectionObserver" in window) {
   // Initially hide all sections until observed
   revealSections.forEach((el) => {
